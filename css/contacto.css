@@ -1,0 +1,325 @@
+@media only screen and (min-width: 1920px){
+	#section6{
+		margin: 0 auto;
+		position: relative;
+	}
+	#section6 .iconmaps{
+		display: none !important;
+	}
+	#section6 #lineas_contacto{
+		display: none !important;
+	}
+	#section6 iframe{
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	#cabecera{
+		width: 50%;
+		float: left;
+		margin-top: 2%;
+	}
+	#cabecera p{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	#cabecera img{
+		margin-bottom: 25px;
+	}
+	.contact_content{
+		float: left;
+		width: 44%;
+		height: 65%;
+		margin-left: 3%; 
+	}
+	.sup{
+		width: 49% !important;
+		float: left;
+	}
+	#input_name{
+		margin-right: 2%;
+	}
+}
+@media only screen and (min-width: 1280px) and (max-width: 1919px){
+	#section6{
+		margin: 0 auto;
+		position: relative;
+	}
+	#section6 .iconmaps{
+		display: none !important;
+	}
+	#section6 #lineas_contacto{
+		display: none !important;
+	}
+	#section6 iframe{
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	#cabecera{
+		width: 50%;
+		float: left;
+		margin-top: 2%;
+	}
+	#cabecera p{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	#cabecera img{
+		margin-bottom: 25px;
+	}
+	.contact_content{
+		float: left;
+		width: 44%;
+		height: 65%;
+		margin-left: 3%; 
+	}
+	.sup{
+		width: 49% !important;
+		float: left;
+	}
+	#input_name{
+		margin-right: 2%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+	#section6{
+		margin: 0 auto;
+		position: relative;
+	}
+	#section6 .iconmaps{
+		display: none !important;
+	}
+	#section6 #lineas_contacto{
+		display: none !important;
+	}
+	#section6 iframe{
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	#cabecera{
+		width: 50%;
+		float: left;
+		margin-top: 2%;
+	}
+	#cabecera p{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	#cabecera img{
+		margin-bottom: 25px;
+	}
+	.contact_content{
+		float: left;
+		width: 44%;
+		height: 59%;
+		margin-left: 3%; 
+	}
+	.sup{
+		width: 49% !important;
+		float: left;
+	}
+	#input_name{
+		margin-right: 2%;
+	}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+	#section6{
+		margin: 0 auto;
+		position: relative;
+	}
+	#section6 .iconmaps{
+		display: none !important;
+	}
+	#section6 #lineas_contacto{
+		display: none !important;
+	}
+	#section6 iframe{
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	#cabecera{
+		width: 50%;
+		float: left;
+		margin-top: 2%;
+	}
+	#cabecera p{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	.contact_content{
+		float: left;
+		width: 44%;
+		height: 65%;
+		margin-left: 3%; 
+	}
+	.sup{
+		width: 49% !important;
+		float: left;
+	}
+	#input_name{
+		margin-right: 2%;
+	}
+	#footer{
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 767px) and (min-width: 667px){
+	#section6{
+		margin: 0 auto;
+		position: relative;
+	}
+	#section6 .iconmaps{
+		display: none !important;
+	}
+	#section6 #lineas_contacto{
+		display: none !important;
+	}
+	#section6 iframe{
+		width: 50%;
+		height: 100%;
+		float: left;
+		display: none;
+	}
+	#cabecera{
+		width: 100%;
+		float: left;
+		margin-top: 0%;
+	}
+	#cabecera img{
+		display: none;
+	}
+	#cabecera p{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	.contact_content{
+		float: left;
+		width: 94%;
+		height: 65%;
+		margin-left: 3%; 
+	}
+	.sup{
+		width: 49% !important;
+		float: left;
+	}
+	#input_name{
+		margin-right: 2%;
+	}
+	#footer{
+		display: none !important;
+	}
+	#contact{
+		padding: 0 !important;
+	}
+	#message{
+		height: 100px !important;
+	}
+	.submit_btn{
+		margin: 10px 0 0 0 !important;
+	}
+}
+@media only screen and (max-width: 666px) and (min-width: 480px){
+	#section6{
+		margin: 0 auto;
+		position: relative;
+	}
+	#section6 .iconmaps{
+		display: none !important;
+	}
+	#section6 #lineas_contacto{
+		display: none !important;
+	}
+	#section6 iframe{
+		width: 50%;
+		height: 100%;
+		float: left;
+		display: none;
+	}
+	#cabecera{
+		width: 100%;
+		float: left;
+		margin-top: 0%;
+	}
+	#cabecera img{
+		display: none;
+	}
+	#cabecera p{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	.contact_content{
+		float: left;
+		width: 94%;
+		height: 65%;
+		margin-left: 3%; 
+	}
+	.sup{
+		width: 49% !important;
+		float: left;
+	}
+	#input_name{
+		margin-right: 2%;
+	}
+	#footer{
+		display: none !important;
+	}
+	#contact{
+		padding: 0 !important;
+	}
+	#message{
+		height: 100px !important;
+	}
+	.submit_btn{
+		margin: 10px 0 0 0 !important;
+	}
+}
+@media only screen and (max-width: 479px) and (min-width: 0px){
+	#section6{
+		display: none;
+	}
+	#aviso_cambio{
+		display: block !important;
+		width: 200px !important;
+		height: 200px !important;
+		background-size: 100% !important;
+		margin: 30% 0 0 25% !important;
+		z-index: 20 !important;
+		opacity: 0.7 !important;
+		animation: opa 1s linear 1s infinite;
+		-webkit-animation: opa 1s linear 1s infinite;
+		-moz-animation: opa 1s linear 1s infinite;
+		-o-animation: opa 1s linear 1s infinite;
+		-ms-animation: opa 1s linear 1s infinite;
+	}
+	#footer{
+		display: none !important;
+	}
+	@keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-webkit-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-moz-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-o-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-ms-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+}

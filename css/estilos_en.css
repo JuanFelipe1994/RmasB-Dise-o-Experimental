@@ -1,0 +1,30 @@
+/*HOME===================================================*/
+	@media only screen and (min-width: 1920px){	
+		#icono_quienes{
+			margin: -78% 0 0 76% !important;
+		}
+		#icono_diseno{
+			margin: -54% 0 0 83% !important;
+		}
+		#icono_ventas{
+			margin: -107% 0 0 68% !important;
+		}
+		#icono_contacto{
+			margin: -81% 0 0 75% !important;
+		}
+		#globo-espanol{
+			margin-left: -150% !important;
+			margin-top: -64% !important;
+		}
+	}
+	@media only screen and (min-width: 1280px) and (max-width: 1919px){
+		#icono_quienes{
+			margin: -78% 0 0 85% !important;
+		}
+		#icono_ventas{
+			margin: -108% 0 0 68% !important;
+		}
+		#icono_contacto{
+			margin: -83% 0 0 75% !important;
+		}
+	}

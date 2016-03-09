@@ -1,0 +1,2648 @@
+@media only screen and (min-width: 1920px){
+	body{
+		overflow: hidden !important;
+	}
+	#section1 .slides-navigation {
+		display: block !important;
+	}
+	.textoqsgrande{
+		line-height: 25px !important;
+    	width: 64% !important;
+    	margin-top: 0% !important;
+   		margin-left: 19% !important;
+   		margin-bottom: -6px !important;
+	}
+	.fondo_infografia p strong{
+		font-size: 18pt !important;
+	}
+	#section1{
+		width: 100% !important;
+		overflow: hidden !important;
+		padding-top: 80px !important;
+	}
+	#about{
+		width: 100% !important;
+	}
+	.template{
+		/*width: 100% !important;*/
+		background-repeat: no-repeat !important;
+		margin: 32px 0 0 0 !important;
+	}
+	#contenido_quienessomos {
+	    /*height: 710px !important;*/
+	    margin: 0 auto !important;
+	    overflow: hidden !important;
+	    position: relative !important;
+	}
+	a#izq, a#der{
+		margin: 0% 0 0 0 !important;
+	}
+	#quienes_smart{
+		display: block;
+	}
+	#boton_abreqs{
+		display: block;
+		margin: -400px 0 0 94%;
+    	position: absolute;
+	    width: 45px;
+	    height: 35px;
+	    font-family: monospace;
+	    z-index: 9;
+	    border-radius: 5px;
+	    border: 1px solid #fff;
+    	background: transparent;
+	}
+	#boton_abreqs p {
+		color:rgba(237,50,54,1);
+		font-size: 20pt;
+		margin-top: -1px;
+	}
+	.fondo_infografia{
+		margin:-31px 0 0 0 !important;
+	}
+	p#txtsmart{
+		color: #aaa;
+	    text-align: justify;
+	    width: 94%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtmision {
+		color: #aaa;
+	    text-align: center;
+	    width: 94%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtvalores{
+		color: #aaa;
+	    text-align: justify;
+	    width: 98%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 2.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	#content_infoqs{
+		background: transparent;
+	    width: 50%;
+	    height: 180px;
+	    opacity: 0;
+	    z-index: 3;
+	    position: absolute;
+	    margin-top: -405px;
+	    margin-left: -100%;
+	}
+	#content_infoqs p{
+		color: #aaa;
+		font-size: 12pt;
+		text-align: center;
+		height: 100px;
+	}
+	#content_infoqs #txt_infoqs strong, #content_infoqs #txt_misionqs strong{
+		color: #666;
+	}
+	#content_infoqs .opc_qs{
+		margin: 0 0% 0 16%;
+		border: 1px solid #fff;
+		width: 120px;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: #aaa;
+	    border-radius: 5px;
+	    color: #000;
+	}
+	#content_infoqs .seleccionado{
+		margin: 0 0% 0 16%;
+		border: 1px solid #fff;
+		width: 120px;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: rgba(237,50,54,1);
+	    border-radius: 5px;
+	    color: #fff;
+	}
+	.resaltar_txt, #txt_valoresqs span{
+		color:rgba(237,50,54,1);
+	}
+ 	#avatares #avatar1, #avatares #avatar2, #avatares #avatar3, #avatares #avatar4, #avatares #avatar5, #avatares #avatar6, #avatares #avatar7, #avatares #avatar8, #avatares #avatar9, #avatares #avatar10, #avatares #avatar11{
+		margin-top: -45px !important; 
+		cursor:pointer;
+	} 
+}
+@media only screen and (min-width: 1280px) and (max-width: 1919px){
+	#quienes_smart{
+		display: block;
+	}
+	.template{
+		width: 100% !important;
+		background-repeat: no-repeat !important;
+	}
+	.img_template{
+		width: 357px !important;
+		height: 273px !important;
+		background-size: 100%;
+	}
+	#contenido_quienessomos {
+	    height: 500px !important;
+	    margin: 0 auto !important;
+	    overflow: hidden !important;
+	    position: relative !important;
+	}
+	a#izq, a#der{
+		margin: 0% 0 0 0 !important;
+	}
+	#avatar1{
+		width: 72px !important;
+	    height: 88px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 11% !important;
+	    cursor: pointer;
+	}
+	#avatar2{
+		width: 73px !important;
+	    height: 91px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 17% !important;
+	    cursor: pointer;
+	}
+	#avatar3{
+		width: 94px !important;
+	    height: 89px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 24% !important;
+	    cursor: pointer;
+	}
+	#avatar4{
+		width: 75px !important;
+	    height: 92px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 32% !important;
+	    cursor: pointer;
+	}
+	#avatar5{
+		width: 65px !important;
+	    height: 116px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 39% !important;
+	    cursor: pointer;
+	}
+	#avatar6{
+		width: 104px !important;
+	    height: 88px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 45% !important;
+	    cursor: pointer;
+	}
+	#avatar7{
+		width: 68px !important;
+	    height: 93px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 54% !important;
+	    cursor: pointer;
+	}
+	#avatar8{
+		width: 94px !important;
+	    height: 93px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 60% !important;
+	    cursor: pointer;
+	}
+	#avatar9{
+		width: 94px !important;
+	    height: 91px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 68% !important;
+	    cursor: pointer;
+	}
+	#avatar10{
+		width: 77px !important;
+	    height: 124px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 76% !important;
+	    cursor: pointer;
+	}
+	#avatar11{
+		width: 69px !important;
+	    height: 90px !important;
+	    position: absolute !important;
+	    margin: 27px 0 0 82% !important;
+	    cursor: pointer;
+	}
+	#world{
+		margin: 5% 0 0 1% !important;
+	}
+	#about{
+		padding: 85px 0 0 0 !important;
+	}
+	.fondo_infografia p strong {
+    	font-size: 15pt !important;
+	}
+	.fondo_infografia p{
+		width: 90% !important;
+		margin-left: 3% !important;
+	}
+	#boton_abreqs{
+		display: block;
+		margin: -400px 0 0 94%;
+    	position: absolute;
+	    width: 45px;
+	    height: 35px;
+	    font-family: monospace;
+	    z-index: 9;
+	    border-radius: 5px;
+	    border: 1px solid #fff;
+    	background: transparent;
+	}
+	#boton_abreqs p {
+		color:rgba(237,50,54,1);
+		font-size: 20pt;
+		margin-top: -1px;
+	}
+	.fondo_infografia{
+		margin:-31px 0 0 0 !important;
+	}
+	p#txtsmart{
+		color: #aaa;
+	    text-align: justify;
+	    width: 94%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtmision {
+		color: #aaa;
+	    text-align: center;
+	    width: 94%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtvalores{
+		color: #aaa;
+	    text-align: justify;
+	    width: 98%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 2.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	#content_infoqs{
+		background: rgba(0,0,0,0.7);
+	    width: 50%;
+	    height: 180px;
+	    opacity: 0;
+	    z-index: 3;
+	    position: absolute;
+	    margin-top: -400px;
+	    margin-left: -100%;
+	}
+	#content_infoqs p{
+		color: #aaa;
+		font-size: 12pt;
+		text-align: center;
+		height: 132px;
+	}
+	#content_infoqs .opc_qs{
+		margin: 0 0% 0 4px;
+		border: 1px solid #fff;
+		width: 32%;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: #aaa;
+	    border-radius: 5px;
+	    color: #000;
+	}
+	#content_infoqs .seleccionado{
+		margin: 0 0% 0 4px;
+		border: 1px solid #fff;
+		width: 32%;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: rgba(237,50,54,1);
+	    border-radius: 5px;
+	    color: #fff;
+	}
+	.resaltar_txt{
+		color:rgba(237,50,54,1);
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+	body{
+		background: url(../img/qssmart_fondo_1024.jpg) !important;
+		background-size: 100% !important;
+	}
+	.fondo_infografia{
+		display: none !important;
+	}
+	#about{
+		padding: 0 0 0 0 !important;
+		height: 100% !important;
+	}
+	#quienes_smart{
+		width: 100%;
+		height: 100%;
+	}
+	.fondoqssmart{
+		background: url(../img/qssmart_fondo_1024.jpg);
+		width: 100% !important;
+		height: 100% !important;
+		background-size: 100% !important;
+		background-repeat: no-repeat !important;
+	}
+	#cenefa_negra{
+		background: transparent !important;
+	}
+	#iconoqs_smart{
+		display: none !important;
+	}
+	p#txtsmart{
+		color: #fff;
+	    text-align: justify;
+	    width: 94%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtmision {
+		color: #fff;
+	    text-align: center;
+	    width: 94%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtvalores{
+		color: #fff;
+	    text-align: justify;
+	    width: 98%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 2.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	#lineasmart{
+		background: #fff;
+		width: 10000%;
+		height: 2px;
+		position: absolute;
+		margin: 81% 0 0 0 !important;
+		z-index: 1;
+	}
+	#contenedoravatar{
+	    width: 100% !important;
+	    height: 400px ;
+	    margin-top: 0%;
+	    overflow: hidden;
+	    position: absolute;
+	}
+	#tirilla{
+		width: 100%;
+		position: absolute;
+		margin-left:0 ;
+		animation-name: carousel;
+		-webkit-animation-name: carousel;
+		transition:all 1s ease;
+		-webkit-transition:all 1s ease;
+		animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		animation-duration:30s;
+		-webkit-animation-duration:30s;
+	}
+	#smart1{
+		background: url(../img/qssmart1_1.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 0;
+	}
+	#smart2{
+		background: url(../img/qssmart2_2.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 167px;
+	}
+	#smart3{
+		background: url(../img/qssmart3_3.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 334px;
+	}
+	#smart1_2{
+		background: url(../img/qssmart1_1.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1837px;
+	}
+	#smart2_2{
+		background: url(../img/qssmart2_2.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2004px;
+	}
+	#smart3_2{
+		background: url(../img/qssmart3_3.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2171px;
+	}
+	#smart4{
+		background: url(../img/qssmart4_4.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 501px;
+	}
+	#smart5{
+		background: url(../img/qssmart5_5.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 668px;
+	}
+	#smart4_2{
+		background: url(../img/qssmart4_4.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2338px;
+	}
+	#smart5_2{
+		background: url(../img/qssmart5_5.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2505px;
+	}
+	#smart6_2{
+		background: url(../img/qssmart6_6.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2672px;
+	}
+	#smart7_2{
+		background: url(../img/qssmart7_7.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2839px;
+	}
+	#smart8_2{
+		background: url(../img/qssmart8_8.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 3006px;
+	}
+	#smart6{
+		background: url(../img/qssmart6_6.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 835px;
+	}
+	#smart7{
+		background: url(../img/qssmart7_7.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1002px;
+	}
+	#smart8{
+		background: url(../img/qssmart8_8.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1169px;
+	}
+	#smart9{
+		background: url(../img/qssmart9_9.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1336px;
+	}
+	#smart10{
+		background: url(../img/qssmart10_10.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1503px;
+	}
+	#smart11{
+		background: url(../img/qssmart11_11.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1670px;
+	}
+	#popup1{
+		background: url(../img/qssmart1_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup2{
+		background: url(../img/qssmart2_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup3{
+		background: url(../img/qssmart3_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup4{
+		background: url(../img/qssmart4_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup5{
+		background: url(../img/qssmart5_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup6{
+		background: url(../img/qssmart6_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup7{
+		background: url(../img/qssmart7_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup8{
+		background: url(../img/qssmart8_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup9{
+		background: url(../img/qssmart9_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup10{
+		background: url(../img/qssmart10_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup11{
+		background: url(../img/qssmart11_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup1_2{
+		background: url(../img/qssmart1_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup2_2{
+		background: url(../img/qssmart2_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup3_2{
+		background: url(../img/qssmart3_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup4_2{
+		background: url(../img/qssmart4_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup5_2{
+		background: url(../img/qssmart5_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	#popup6_2{
+		background: url(../img/qssmart6_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 14%;
+	}
+	.close_popup{
+		width: 45px;
+		height: 35px;
+		margin:5% 0 0 90%;
+		padding: 11px 16px;
+		background: #000;
+		/*border:1px solid #000;*/
+		border-radius: 7px;
+		opacity: 0.7;
+		position: absolute;
+		z-index: 100;
+	}
+	#txtsmart strong , #txtmision strong, #txtvalores strong{
+		color:#66c7cd;
+	}
+	#txtmision span, #txtvalores span{
+		color:rgba(237,50,54,1);
+	}
+	#iconoqs_smart{
+		background: url(../img/quienesrojo.png);
+		width: 34px;
+		height: 34px;
+		background-size: 100%;
+		margin:2% 0 0 85%;
+		position: absolute;
+		display: none !important;
+	}
+	#contenedoredificio{
+	    width: 1536px;
+	    height: 240px;
+	    background-size: 100%;
+	    position: absolute;
+	    margin-left: 0%;
+	    animation-name:carousel_edificio;
+	    -webkit-animation-name:carousel_edificio;
+	    -moz-animation-name:carousel_edificio;
+	    -o-animation-name:carousel_edificio;
+	    -ms-animation-name:carousel_edificio;
+	    animation-duration:20s;
+	    -webkit-animation-duration:20s;
+	    -moz-animation-duration:20s;
+	    -o-animation-duration:20s;
+	    -ms-animation-duration:20s;
+	    animation-iteration-count:infinite;
+	    -webkit-animation-iteration-count:infinite;
+	    -moz-animation-iteration-count:infinite;
+	    -o-animation-iteration-count:infinite;
+	    -ms-animation-iteration-count:infinite;
+	    transition:all 1s ease;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+	}
+	#contenidodeedificio{
+		width: 100%;
+		position: absolute;
+		overflow: hidden;
+		height: 312px;
+		bottom:0;
+		display: none !important;
+	}
+	#edificio1{
+		background: url(../img/edificio1.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 0;
+	}
+	#edificio2{
+		background: url(../img/edificio2.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 256px;
+	}
+	#edificio3{
+		background: url(../img/edificio3.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 512px;
+	}
+	#edificio4{
+		background: url(../img/edificio4.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 768px;
+	}
+	#edificio5{
+		background: url(../img/edificio5.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 1024px;
+	}
+	#edificio6{
+		background: url(../img/edificio6.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 1280px;
+	}
+	#edificio1_2{
+		background: url(../img/edificio1.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 1536px;
+	}
+	#edificio2_2{
+		background: url(../img/edificio2.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 1792px;
+	}
+	#edificio3_2{
+		background: url(../img/edificio3.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 2048px;
+	}
+	#edificio4_2{
+		background: url(../img/edificio4.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 2304px;
+	}
+	#edificio5_2{
+		background: url(../img/edificio5.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		/*background-size: 100%;*/
+		margin: 2.4% 0 0 2560px;
+	}
+	#boton_abreqs{
+	    margin: 10% 0 0 90%;
+    	position: absolute;
+	    width: 45px;
+	    height: 35px;
+	    font-family: monospace;
+	    z-index: 9;
+	    border-radius: 5px;
+	    border: 1px solid #fff;
+    	background: transparent;
+    	display: none !important;
+	}
+	#boton_abreqs p {
+		color:rgba(237,50,54,1);
+		font-size: 20pt;
+		margin-top: -1px;
+	}
+	#content_infoqs{
+		background:transparent;
+	    width: 100%;
+	    height: 180px;
+	    opacity: 0.9;
+	    z-index: 3;
+	    position: absolute;
+	    margin-top: 410px !important;
+	    margin-left: 0 !important;
+	}
+	#content_infoqs p{
+		color: #fff;
+		font-size: 12pt;
+		text-align: center;
+		height: 154px;
+	}
+	#content_infoqs .opc_qs{
+		margin: 0 0% 0 16%;
+		border: 1px solid #fff;
+		width: 120px;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: #000;
+	    border-radius: 5px;
+	    color: rgba(237,50,54,1);
+	}
+	#content_infoqs .seleccionado{
+		margin: 0 0% 0 16%;
+		border: 1px solid #fff;
+		width: 120px;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: rgba(237,50,54,1);
+	    border-radius: 5px;
+	    color: #fff;
+	}
+	.resaltar_txt, #txt_valoresqs span{
+		color:rgba(237,50,54,1);
+	}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+	body{
+		background: url(../img/qssmart_fondo_1024.jpg) !important;
+		background-size: 100% !important;
+	}
+	.fondo_infografia{
+		display: none !important;
+	}
+	#about{
+		padding: 0 0 0 0 !important;
+		height: 100% !important;
+	}
+	#quienes_smart{
+		width: 100%;
+		height: 100%;
+	}
+	.fondoqssmart{
+		background: url(../img/qssmart_fondo_1024.jpg);
+		width: 100% !important;
+		height: 100% !important;
+		background-size: 100% !important;
+		background-repeat: no-repeat !important;
+	}
+	#cenefa_negra{
+		background: transparent !important;
+	}
+	#iconoqs_smart{
+		display: none !important;
+	}
+	p#txtsmart{
+		color: #fff;
+	    text-align: justify;
+	    width: 94%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtmision {
+		color: #fff;
+	    text-align: center;
+	    width: 94%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtvalores{
+		color: #fff;
+	    text-align: justify;
+	    width: 98%;
+	    font-size: 12pt;
+	    padding-top: 35%;
+	    padding-left: 2.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	#lineasmart{
+		background: #fff;
+		width: 10000%;
+		height: 2px;
+		position: absolute;
+		margin: 81% 0 0 0 !important;
+		z-index: 1;
+	}
+	#contenedoravatar{
+	    width: 100% !important;
+	    height: 100% !important ;
+	    margin-top: 0%;
+	    overflow: hidden;
+	    position: absolute;
+	}
+	#tirilla{
+		width: 100%;
+		position: absolute;
+		margin-left:0 ;
+		animation-name: carousel;
+		-webkit-animation-name: carousel;
+		transition:all 1s ease;
+		-webkit-transition:all 1s ease;
+		animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		animation-duration:30s;
+		-webkit-animation-duration:30s;
+	}
+	#smart1{
+		background: url(../img/qssmart1_1.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 0;
+	}
+	#smart2{
+		background: url(../img/qssmart2_2.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 167px;
+	}
+	#smart3{
+		background: url(../img/qssmart3_3.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 334px;
+	}
+	#smart1_2{
+		background: url(../img/qssmart1_1.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1837px;
+	}
+	#smart2_2{
+		background: url(../img/qssmart2_2.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2004px;
+	}
+	#smart3_2{
+		background: url(../img/qssmart3_3.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2171px;
+	}
+	#smart4{
+		background: url(../img/qssmart4_4.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 501px;
+	}
+	#smart5{
+		background: url(../img/qssmart5_5.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 668px;
+	}
+	#smart4_2{
+		background: url(../img/qssmart4_4.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2338px;
+	}
+	#smart5_2{
+		background: url(../img/qssmart5_5.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2505px;
+	}
+	#smart6_2{
+		background: url(../img/qssmart6_6.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2672px;
+	}
+	#smart7_2{
+		background: url(../img/qssmart7_7.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2839px;
+	}
+	#smart8_2{
+		background: url(../img/qssmart8_8.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 3006px;
+	}
+	#smart6{
+		background: url(../img/qssmart6_6.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 835px;
+	}
+	#smart7{
+		background: url(../img/qssmart7_7.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1002px;
+	}
+	#smart8{
+		background: url(../img/qssmart8_8.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1169px;
+	}
+	#smart9{
+		background: url(../img/qssmart9_9.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1336px;
+	}
+	#smart10{
+		background: url(../img/qssmart10_10.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1503px;
+	}
+	#smart11{
+		background: url(../img/qssmart11_11.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1670px;
+	}
+	#popup1{
+		background: url(../img/qssmart1_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup2{
+		background: url(../img/qssmart2_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup3{
+		background: url(../img/qssmart3_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup4{
+		background: url(../img/qssmart4_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup5{
+		background: url(../img/qssmart5_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup6{
+		background: url(../img/qssmart6_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup7{
+		background: url(../img/qssmart7_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup8{
+		background: url(../img/qssmart8_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup9{
+		background: url(../img/qssmart9_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup10{
+		background: url(../img/qssmart10_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup11{
+		background: url(../img/qssmart11_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup1_2{
+		background: url(../img/qssmart1_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup2_2{
+		background: url(../img/qssmart2_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup3_2{
+		background: url(../img/qssmart3_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup4_2{
+		background: url(../img/qssmart4_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup5_2{
+		background: url(../img/qssmart5_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	#popup6_2{
+		background: url(../img/qssmart6_1024.jpg);
+		width: 1024px;
+		height: 461px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 15%;
+	}
+	.close_popup{
+		width: 45px;
+		height: 35px;
+		margin:5% 0 0 90%;
+		padding: 11px 16px;
+		background: #000;
+		/*border:1px solid #000;*/
+		border-radius: 7px;
+		opacity: 0.7;
+		position: absolute;
+		z-index: 100;
+	}
+	#txtsmart strong , #txtmision strong, #txtvalores strong{
+		color:#66c7cd;
+	}
+	#txtmision span, #txtvalores span{
+		color:rgba(237,50,54,1);
+	}
+	#iconoqs_smart{
+		background: url(../img/quienesrojo.png);
+		width: 34px;
+		height: 34px;
+		background-size: 100%;
+		margin:2% 0 0 85%;
+		position: absolute;
+		display: none !important;
+	}
+	#contenedoredificio{
+	    width: 1536px;
+	    height: 240px;
+	    background-size: 100%;
+	    position: absolute;
+	    margin-left: 0%;
+	    animation-name:carousel_edificio;
+	    -webkit-animation-name:carousel_edificio;
+	    -moz-animation-name:carousel_edificio;
+	    -o-animation-name:carousel_edificio;
+	    -ms-animation-name:carousel_edificio;
+	    animation-duration:20s;
+	    -webkit-animation-duration:20s;
+	    -moz-animation-duration:20s;
+	    -o-animation-duration:20s;
+	    -ms-animation-duration:20s;
+	    animation-iteration-count:infinite;
+	    -webkit-animation-iteration-count:infinite;
+	    -moz-animation-iteration-count:infinite;
+	    -o-animation-iteration-count:infinite;
+	    -ms-animation-iteration-count:infinite;
+	    transition:all 1s ease;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+	}
+	#contenidodeedificio{
+		width: 100%;
+		position: absolute;
+		overflow: hidden;
+		height: 312px;
+		bottom:0;
+		display: none !important;
+	}
+	#edificio1{
+		background: url(../img/edificio1.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 0;
+	}
+	#edificio2{
+		background: url(../img/edificio2.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 256px;
+	}
+	#edificio3{
+		background: url(../img/edificio3.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 512px;
+	}
+	#edificio4{
+		background: url(../img/edificio4.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 768px;
+	}
+	#edificio5{
+		background: url(../img/edificio5.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 1024px;
+	}
+	#edificio6{
+		background: url(../img/edificio6.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 1280px;
+	}
+	#edificio1_2{
+		background: url(../img/edificio1.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 1536px;
+	}
+	#edificio2_2{
+		background: url(../img/edificio2.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 1792px;
+	}
+	#edificio3_2{
+		background: url(../img/edificio3.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 2048px;
+	}
+	#edificio4_2{
+		background: url(../img/edificio4.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 2304px;
+	}
+	#edificio5_2{
+		background: url(../img/edificio5.png);
+		width: 256px;
+		height: 235px;
+		position: absolute;
+		background-size: 100%;
+		margin: 2.4% 0 0 2560px;
+	}
+	#boton_abreqs{
+	    margin: 10% 0 0 90%;
+    	position: fixed;
+	    width: 45px;
+	    height: 35px;
+	    font-family: monospace;
+	    z-index: 9;
+	    border-radius: 5px;
+	    border: 1px solid #fff;
+    	background: transparent;
+    	display: none;
+	}
+	#boton_abreqs p {
+		color:rgba(237,50,54,1);
+		font-size: 20pt;
+		margin-top: -1px;
+	}
+	#content_infoqs{
+		background: transparent;
+	    width: 100%;
+	    height: 180px;
+	    opacity: 0.9;
+	    z-index: 3;
+	    position: absolute;
+	    margin-top: 580px;
+	    margin-left: 0 !important;
+	}
+	#content_infoqs p{
+		color: #fff;
+		font-size: 12pt;
+		text-align: center;
+		height: 250px;
+	}
+	#content_infoqs .opc_qs{
+		border: 1px solid #fff;
+		width: 33%;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: #000;
+	    border-radius: 5px;
+	    color: rgba(237,50,54,1);
+	}
+	#content_infoqs .seleccionado{
+		border: 1px solid #fff;
+		width: 33%;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: rgba(237,50,54,1);
+	    border-radius: 5px;
+	    color: #fff;
+	}
+	.resaltar_txt{
+		color:rgba(237,50,54,1);
+	}
+	#footer{
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 767px) and (min-width: 667px){
+	.fondo_infografia{
+		display: none !important;
+	}
+	#about{
+		height: 375px !important;
+		padding: 0 0 !important; 
+	}
+	#quienes_smart{
+		width: 100%;
+		height: 100%;
+	}
+	.fondoqssmart{
+		background: url(../img/qssmart_fondo_1024.jpg);
+		width: 100% !important;
+		height: 100% !important;
+		background-size: 100% !important;
+		background-repeat: no-repeat !important;
+	}
+	#cenefa_negra{
+		background: transparent;
+		width: 100%;
+		height: 60px
+	}
+	.resaltar_txt{
+		color:rgba(237,50,54,1);
+	}
+	p#txtsmart{
+		color: #fff;
+	    text-align: justify;
+	    width: 94%;
+	    font-size: 9.5pt;
+	    padding-top: 9%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtmision {
+		color: #fff;
+	    text-align: center;
+	    width: 94%;
+	    font-size: 9.5pt;
+	    padding-top: 10%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtvalores{
+		color: #fff;
+	    text-align: justify;
+	    width: 98%;
+	    font-size: 9.5pt;
+	    padding-top: 8%;
+	    padding-left: 2.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	#lineasmart{
+		background: url(../img/qssmart_linea.png);
+		width: 10000%;
+		height: 2px;
+		position: absolute;
+		border:1px solid #fff;
+		margin: 81% 0 0 0;
+		z-index: 1;
+	}
+	#contenedoravatar{
+	    width: 100%;
+	    height: 375px !important;
+	    overflow: hidden;
+	    position: absolute;
+	    margin-top: 0% !important;
+	}
+	#smart1{
+		background: url(../img/qssmart1_1.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 0;
+	}
+	#smart2{
+		background: url(../img/qssmart2_2.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 167px;
+	}
+	#smart3{
+		background: url(../img/qssmart3_3.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 334px;
+	}
+	#smart1_2{
+		background: url(../img/qssmart1_1.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1837px;
+	}
+	#smart2_2{
+		background: url(../img/qssmart2_2.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2004px;
+	}
+	#smart3_2{
+		background: url(../img/qssmart3_3.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2171px;
+	}
+	#smart4{
+		background: url(../img/qssmart4_4.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 501px;
+	}
+	#smart5{
+		background: url(../img/qssmart5_5.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 668px;
+	}
+	#smart4_2{
+		background: url(../img/qssmart4_4.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2338px;
+	}
+	#smart5_2{
+		background: url(../img/qssmart5_5.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2505px;
+	}
+	#smart6_2{
+		background: url(../img/qssmart6_6.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2672px;
+	}
+	#smart6{
+		background: url(../img/qssmart6_6.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 835px;
+	}
+	#smart7{
+		background: url(../img/qssmart7_7.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1002px;
+	}
+	#smart8{
+		background: url(../img/qssmart8_8.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1169px;
+	}
+	#smart9{
+		background: url(../img/qssmart9_9.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1336px;
+	}
+	#smart10{
+		background: url(../img/qssmart10_10.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1503px;
+	}
+	#smart11{
+		background: url(../img/qssmart11_11.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1670px;
+	}
+	#popup1{
+		background: url(../img/qssmart1.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup2{
+		background: url(../img/qssmart2.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup3{
+		background: url(../img/qssmart3.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup4{
+		background: url(../img/qssmart4.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup5{
+		background: url(../img/qssmart5.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup6{
+		background: url(../img/qssmart6.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup7{
+		background: url(../img/qssmart7.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup8{
+		background: url(../img/qssmart8.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup9{
+		background: url(../img/qssmart9.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup10{
+		background: url(../img/qssmart10.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup11{
+		background: url(../img/qssmart11.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup1_2{
+		background: url(../img/qssmart1.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup2_2{
+		background: url(../img/qssmart2.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: -2%;
+		margin-top: 4%;
+	}
+	#popup3_2{
+		background: url(../img/qssmart3.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup4_2{
+		background: url(../img/qssmart4.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup5_2{
+		background: url(../img/qssmart5.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	#popup6_2{
+		background: url(../img/qssmart6.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 4%;
+	}
+	.close_popup{
+		width: 45px;
+		height: 35px;
+		margin:6% 0 0 91%;
+		padding: 11px 16px;
+		background: #000;
+		/*border:1px solid #000;*/
+		border-radius: 5px;
+		opacity: 0.7;
+		position: absolute;
+		z-index: 100;
+	}
+	#txtsmart strong , #txtmision strong, #txtvalores strong{
+		color:#66c7cd;
+	}
+	#txtmision span, #txtvalores span{
+		color:rgba(237,50,54,1);
+	}
+	#iconoqs_smart{
+		background: url(../img/quienesrojo.png);
+		display: none;
+		width: 34px;
+		height: 34px;
+		background-size: 100%;
+		margin:2% 0 0 85%;
+		position: absolute;
+	}
+	#tirilla{
+		width: 100%;
+		position: absolute;
+		margin-left:0 ;
+		animation-name: carousel;
+		-webkit-animation-name: carousel;
+		-moz-animation-name: carousel;
+		-o-animation-name: carousel;
+		-ms-animation-name: carousel;
+		transition:all 1s ease;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+		animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		animation-duration:30s;
+		-webkit-animation-duration:30s;
+		-moz-animation-duration:30s;
+		-o-animation-duration:30s;
+		-ms-animation-duration:30s;
+	}
+	.puntero_quienes{
+		margin-top: 12px !important;
+	}
+	#boton_abreqs{
+	    margin: 10% 0 0 91%;
+    	position: fixed;
+	    width: 45px;
+	    height: 35px;
+	    font-family: monospace;
+	    z-index: 9;
+	    border-radius: 5px;
+	    border: 1px solid #fff;
+    	background: transparent;
+	}
+	#boton_abreqs #pmas {
+		color:rgba(237,50,54,1);
+		font-size: 20pt;
+		margin-top: -1px;
+	}
+	#boton_abreqs #pmenos {
+		color:rgba(237,50,54,1);
+		font-size: 20pt;
+		margin-top: -1px;
+	}
+	#content_infoqs{
+		background: #000;
+	    width: 100%;
+	    height: 180px;
+	    opacity: 0.9;
+	    z-index: 3;
+	    position: absolute;
+	    margin-top: 16%;
+	    margin-left: -105%;
+	}
+	#content_infoqs p{
+		color: #fff;
+		font-size: 12pt;
+		text-align: center;
+		height: 150px;
+	}
+	#content_infoqs .opc_qs{
+		margin: 0 0% 0 11%;
+		border: 1px solid #fff;
+		width: 120px;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: #000;
+	    border-radius: 5px;
+	    color: rgba(237,50,54,1);
+	}
+	#content_infoqs .seleccionado{
+		margin: 0 0% 0 11%;
+		border: 1px solid #fff;
+		width: 120px;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: rgba(237,50,54,1);
+	    border-radius: 5px;
+	    color: #fff;
+	}
+	.navbar-toggle{
+		position: fixed !important;
+		margin-left: 1% !important;
+	}
+	#footer{
+		display: none !important;
+	}
+	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+		margin-top: 65% !important;
+	}
+}
+@media only screen and (max-width: 666px) and (min-width: 480px){
+	.fondo_infografia{
+		display: none !important;
+	}
+	#about{
+		height: 375px !important;
+		padding: 0 0 !important; 
+	}
+	#quienes_smart{
+		width: 100%;
+		height: 100%;
+	}
+	.fondoqssmart{
+		background: url(../img/qssmart_fondo_1024.jpg);
+		width: 100% !important;
+		height: 100% !important;
+		background-size: 100% !important;
+		background-repeat: no-repeat !important;
+	}
+	#cenefa_negra{
+		background: transparent;
+		width: 100%;
+		height: 60px
+	}
+	p#txtsmart{
+		color: #fff;
+	    text-align: justify;
+	    width: 94%;
+	    font-size: 7pt;
+	    padding-top: 12%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtmision {
+		color: #fff;
+	    text-align: center;
+	    width: 94%;
+	    font-size: 7pt;
+	    padding-top: 10%;
+	    padding-left: 4.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	p#txtvalores{
+		color: #fff;
+	    text-align: justify;
+	    width: 98%;
+	    font-size: 7pt;
+	    padding-top: 8%;
+	    padding-left: 2.7%;
+		opacity: 0;
+		position: absolute;
+	}
+	#lineasmart{
+		background: #fff;
+		width: 10000%;
+		height: 2px;
+		position: absolute;
+		margin: 81% 0 0 0;
+		z-index: 1;
+	}
+	#contenedoravatar{
+	    width: 100%;
+	    height: 100% !important;
+	    /*overflow: hidden;*/
+	    position: absolute;
+	    margin-top: 12% !important;
+	}
+	#smart1{
+		background: url(../img/qssmart1_1.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 0;
+	}
+	#smart2{
+		background: url(../img/qssmart2_2.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 167px;
+	}
+	#smart3{
+		background: url(../img/qssmart3_3.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 334px;
+	}
+	#smart1_2{
+		background: url(../img/qssmart1_1.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1837px;
+	}
+	#smart2_2{
+		background: url(../img/qssmart2_2.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2004px;
+	}
+	#smart3_2{
+		background: url(../img/qssmart3_3.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2171px;
+	}
+	#smart4{
+		background: url(../img/qssmart4_4.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 501px;
+	}
+	#smart5{
+		background: url(../img/qssmart5_5.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 668px;
+	}
+	#smart4_2{
+		background: url(../img/qssmart4_4.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2338px;
+	}
+	#smart5_2{
+		background: url(../img/qssmart5_5.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2505px;
+	}
+	#smart6_2{
+		background: url(../img/qssmart6_6.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 2672px;
+	}
+	#smart6{
+		background: url(../img/qssmart6_6.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 835px;
+	}
+	#smart7{
+		background: url(../img/qssmart7_7.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1002px;
+	}
+	#smart8{
+		background: url(../img/qssmart8_8.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1169px;
+	}
+	#smart9{
+		background: url(../img/qssmart9_9.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1336px;
+	}
+	#smart10{
+		background: url(../img/qssmart10_10.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1503px;
+	}
+	#smart11{
+		background: url(../img/qssmart11_11.png);
+		width: 167px;
+		height: 171px;
+		position: absolute;
+		margin: 15.4% 0 0 1670px;
+	}
+	#popup1{
+		background: url(../img/qssmart1.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup2{
+		background: url(../img/qssmart2.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: -2%;
+		margin-top: 35px;
+	}
+	#popup3{
+		background: url(../img/qssmart3.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup4{
+		background: url(../img/qssmart4.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup5{
+		background: url(../img/qssmart5.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup6{
+		background: url(../img/qssmart6.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup7{
+		background: url(../img/qssmart7.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup8{
+		background: url(../img/qssmart8.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup9{
+		background: url(../img/qssmart9.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup10{
+		background: url(../img/qssmart10.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup11{
+		background: url(../img/qssmart11.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup1_2{
+		background: url(../img/qssmart1.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup2_2{
+		background: url(../img/qssmart2.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: -2%;
+		margin-top: 35px;
+	}
+	#popup3_2{
+		background: url(../img/qssmart3.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup4_2{
+		background: url(../img/qssmart4.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup5_2{
+		background: url(../img/qssmart5.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	#popup6_2{
+		background: url(../img/qssmart6.jpg);
+		width: 667px;
+		height: 312px;
+		position: absolute;
+		z-index: 50;
+		margin-top: 35px;
+	}
+	.close_popup{
+		width: 45px;
+		height: 35px;
+		margin:8% 0 0 87.2%;
+		padding: 11px 16px;
+		background: #000;
+		/*border:1px solid #000;*/
+		border-radius: 7px;
+		opacity: 0.7;
+		position: absolute;
+		z-index: 100;
+	}
+	#txtsmart strong , #txtmision strong, #txtvalores strong{
+		color:#66c7cd;
+	}
+	#txtmision span, #txtvalores span{
+		color:rgba(237,50,54,1);
+	}
+	#iconoqs_smart{
+		background: url(../img/quienesrojo.png);
+		display: none;
+		width: 34px;
+		height: 34px;
+		background-size: 100%;
+		margin:2% 0 0 85%;
+		position: absolute;
+	}
+	#tirilla{
+		width: 100%;
+		position: absolute;
+		margin-left:0 ;
+		animation-name: carousel;
+		-webkit-animation-name: carousel;
+		-moz-animation-name: carousel;
+		-o-animation-name: carousel;
+		-ms-animation-name: carousel;
+		transition:all 1s ease;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+		animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		animation-duration:30s;
+		-webkit-animation-duration:30s;
+		-moz-animation-duration:30s;
+		-o-animation-duration:30s;
+		-ms-animation-duration:30s;
+	}
+	.puntero_quienes{
+		margin-top: 12px !important;
+	}
+	#boton_abreqs{
+	    margin: 62px 0 0 87.2%;
+    	position: fixed;
+	    width: 45px;
+	    height: 35px;
+	    font-family: monospace;
+	    z-index: 9;
+	    border-radius: 5px;
+	    border: 1px solid #fff;
+    	background: transparent;
+	}
+	#boton_abreqs p {
+		color:rgba(237,50,54,1);
+		font-size: 30pt;
+		margin-top: -11px;
+	}
+	#content_infoqs{
+		background: #000;
+	    width: 100%;
+	    height: 230px;
+	    opacity: 0.9;
+	    z-index: 3;
+	    position: fixed;
+	    margin-top: 16%;
+	    margin-left: -105%;
+	}
+	#content_infoqs p{
+		color: #fff;
+		font-size: 12pt;
+		text-align: center;
+		height: 160px;
+		margin-top: 18px;
+	}
+	#content_infoqs .opc_qs{
+		/*margin: 0 0% 0 6%;*/
+		border: 1px solid #fff;
+		width: 32%;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: #000;
+	    border-radius: 5px;
+	    color: rgba(237,50,54,1);
+	}
+	#content_infoqs .seleccionado{
+		/*margin: 0 0% 0 6%;*/
+		border: 1px solid #fff;
+		width: 32%;
+	    font-size: 8pt;
+	    height: 30px;
+	    background: rgba(237,50,54,1);
+	    border-radius: 5px;
+	    color: #fff;
+	}
+	#boton_abreqs #pmas {
+		color:rgba(237,50,54,1);
+		font-size: 20pt;
+		margin-top: -1px;
+	}
+	#boton_abreqs #pmenos {
+		color:rgba(237,50,54,1);
+		font-size: 20pt;
+		margin-top: -1px;
+	}
+	.resaltar_txt{
+		color:rgba(237,50,54,1);
+	}
+	#section1{
+		width: 100% !important;
+		margin: 0 auto;
+		position: relative;
+	}
+	/*CODIGO del boton menu*/
+	.navbar-toggle{
+		position: fixed !important;
+		margin-left: -2.8% !important;
+	}
+	#navbar{
+		margin-top: 50px !important;
+	}
+	#footer{
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 479px) and (min-width: 0px){
+	#section1{
+		display: none;
+	}
+	#aviso_cambio{
+		display: block !important;
+		width: 200px !important;
+		height: 200px !important;
+		background-size: 100% !important;
+		margin: 30% 0 0 25% !important;
+		z-index: 20 !important;
+		opacity: 0.7 !important;
+		animation: opa 1s linear 1s infinite;
+		-webkit-animation: opa 1s linear 1s infinite;
+		-moz-animation: opa 1s linear 1s infinite;
+		-o-animation: opa 1s linear 1s infinite;
+		-ms-animation: opa 1s linear 1s infinite;
+	}
+	#footer{
+		display: none !important;
+	}
+	@keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-webkit-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-moz-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-o-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-ms-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+}
+
+
+@keyframes carousel{
+		0%{left:0;}
+		5%{left:0;}
+		9%{left: -167px;}
+		14%{left: -167px;}
+		18%{left: -334px;}
+		23%{left: -334px;}
+		27%{left: -501px;}
+		32%{left: -501px;}
+		36%{left: -668px;}
+		41%{left: -668px;}
+		45%{left: -836px;}
+		50%{left: -836px;}
+		54%{left: -1003px;}
+		59%{left: -1003px;}
+		63%{left: -1170px;}
+		68%{left: -1170px;}
+		72%{left: -1337px;}
+		77%{left: -1337px;}
+		81%{left: -1504px;}
+		86%{left: -1504px;}
+		90%{left: -1671px;}
+		95%{left: -1671px;}
+		99%{left: -1838px;}
+		100%{left: -1838px;}
+}
+@-webkit-keyframes carousel{
+	0%{left:0;}
+	5%{left:0;}
+	9%{left: -167px;}
+	14%{left: -167px;}
+	18%{left: -334px;}
+	23%{left: -334px;}
+	27%{left: -501px;}
+	32%{left: -501px;}
+	36%{left: -668px;}
+	41%{left: -668px;}
+	45%{left: -836px;}
+	50%{left: -836px;}
+	54%{left: -1003px;}
+	59%{left: -1003px;}
+	63%{left: -1170px;}
+	68%{left: -1170px;}
+	72%{left: -1337px;}
+	77%{left: -1337px;}
+	81%{left: -1504px;}
+	86%{left: -1504px;}
+	90%{left: -1671px;}
+	95%{left: -1671px;}
+	99%{left: -1838px;}
+	100%{left: -1838px;}
+}
+@-moz-keyframes carousel{
+	0%{left:0;}
+	5%{left:0;}
+	9%{left: -167px;}
+	14%{left: -167px;}
+	18%{left: -334px;}
+	23%{left: -334px;}
+	27%{left: -501px;}
+	32%{left: -501px;}
+	36%{left: -668px;}
+	41%{left: -668px;}
+	45%{left: -836px;}
+	50%{left: -836px;}
+	54%{left: -1003px;}
+	59%{left: -1003px;}
+	63%{left: -1170px;}
+	68%{left: -1170px;}
+	72%{left: -1337px;}
+	77%{left: -1337px;}
+	81%{left: -1504px;}
+	86%{left: -1504px;}
+	90%{left: -1671px;}
+	95%{left: -1671px;}
+	99%{left: -1838px;}
+	100%{left: -1838px;}
+}
+@-o-keyframes carousel{
+	0%{left:0;}
+	5%{left:0;}
+	9%{left: -167px;}
+	14%{left: -167px;}
+	18%{left: -334px;}
+	23%{left: -334px;}
+	27%{left: -501px;}
+	32%{left: -501px;}
+	36%{left: -668px;}
+	41%{left: -668px;}
+	45%{left: -836px;}
+	50%{left: -836px;}
+	54%{left: -1003px;}
+	59%{left: -1003px;}
+	63%{left: -1170px;}
+	68%{left: -1170px;}
+	72%{left: -1337px;}
+	77%{left: -1337px;}
+	81%{left: -1504px;}
+	86%{left: -1504px;}
+	90%{left: -1671px;}
+	95%{left: -1671px;}
+	99%{left: -1838px;}
+	100%{left: -1838px;}
+}
+@-ms-keyframes carousel{
+	0%{left:0;}
+	5%{left:0;}
+	9%{left: -167px;}
+	14%{left: -167px;}
+	18%{left: -334px;}
+	23%{left: -334px;}
+	27%{left: -501px;}
+	32%{left: -501px;}
+	36%{left: -668px;}
+	41%{left: -668px;}
+	45%{left: -836px;}
+	50%{left: -836px;}
+	54%{left: -1003px;}
+	59%{left: -1003px;}
+	63%{left: -1170px;}
+	68%{left: -1170px;}
+	72%{left: -1337px;}
+	77%{left: -1337px;}
+	81%{left: -1504px;}
+	86%{left: -1504px;}
+	90%{left: -1671px;}
+	95%{left: -1671px;}
+	99%{left: -1838px;}
+	100%{left: -1838px;}
+}
+
+@keyframes carousel_edificio{
+	0%{left:0;}
+	10%{left: 0;}
+	15%{left:-256px;}
+	25%{left: -256px;}
+	30%{left: -512px;}
+	40%{left: -512px;}
+	45%{left: -768px;}
+	55%{left: -768px;}
+	60%{left: -1024px;}
+	70%{left: -1024px;}
+	75%{left: -1280px;}
+	85%{left: -1280px;}
+	90%{left: -1536px;}
+	100%{left: -1536px;}
+}	
+@-webkit-keyframes carousel_edificio{
+	0%{left:0;}
+	10%{left: 0;}
+	15%{left:-256px;}
+	25%{left: -256px;}
+	30%{left: -512px;}
+	40%{left: -512px;}
+	45%{left: -768px;}
+	55%{left: -768px;}
+	60%{left: -1024px;}
+	70%{left: -1024px;}
+	75%{left: -1280px;}
+	85%{left: -1280px;}
+	90%{left: -1536px;}
+	100%{left: -1536px;}
+}
+@-moz-keyframes carousel_edificio{
+	0%{left:0;}
+	10%{left: 0;}
+	15%{left:-256px;}
+	25%{left: -256px;}
+	30%{left: -512px;}
+	40%{left: -512px;}
+	45%{left: -768px;}
+	55%{left: -768px;}
+	60%{left: -1024px;}
+	70%{left: -1024px;}
+	75%{left: -1280px;}
+	85%{left: -1280px;}
+	90%{left: -1536px;}
+	100%{left: -1536px;}
+}
+@-o-keyframes carousel_edificio{
+	0%{left:0;}
+	10%{left: 0;}
+	15%{left:-256px;}
+	25%{left: -256px;}
+	30%{left: -512px;}
+	40%{left: -512px;}
+	45%{left: -768px;}
+	55%{left: -768px;}
+	60%{left: -1024px;}
+	70%{left: -1024px;}
+	75%{left: -1280px;}
+	85%{left: -1280px;}
+	90%{left: -1536px;}
+	100%{left: -1536px;}
+}
+@-ms-keyframes carousel_edificio{
+	0%{left:0;}
+	10%{left: 0;}
+	15%{left:-256px;}
+	25%{left: -256px;}
+	30%{left: -512px;}
+	40%{left: -512px;}
+	45%{left: -768px;}
+	55%{left: -768px;}
+	60%{left: -1024px;}
+	70%{left: -1024px;}
+	75%{left: -1280px;}
+	85%{left: -1280px;}
+	90%{left: -1536px;}
+	100%{left: -1536px;}
+}
+button:focus, button:active{
+	border: none !important;
+	outline: 0 !important;
+}

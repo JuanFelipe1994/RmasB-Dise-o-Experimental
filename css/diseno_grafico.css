@@ -1,0 +1,1222 @@
+@media only screen and (min-width: 1920px){
+	/*===============================================================*/
+	body{
+		background: url(../images/fondo.jpg) !important;
+		background-size: 100% !important;
+		background-repeat-x: no-repeat !important;
+		background-repeat-y: repeat; 
+	}
+	#section3{
+		width: 1920px !important;
+		position: relative !important;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.scene{
+	 	width: 1920px;
+	 	position: relative !important;
+	 	margin: 0 auto;
+	}
+	#fondo{
+		width: 1920px;
+		height: 981px;
+	}
+	#sol{
+		margin: 195px 0 0 33%;
+	}
+	#pasto_a{
+		margin: 700px 0 0 -200px;
+	}
+	#pasto_a img{
+		width: 2500px;
+	}
+	#pasto_b{
+		margin: 740px 0 0 -200px;
+	}
+	#pasto_b img{
+		width: 2500px;
+	}
+	#montanas_edificios{
+		margin: 95px 0 0 -15px;
+	}
+	#montanas_edificios img{
+		width: 1950px;
+    	height: 876px;
+	}
+	#calle{
+		margin: 911px 0 0 -70px;
+	}
+	#calle img{
+		width: 2060px;
+	}
+	#cafe{
+		margin: 777px 0 0 -100px;
+	}
+	#cafe img{
+		width: 2120px;
+	}
+	#nubes{
+		margin: 70px 0 0 0;
+	}
+	#nube_e3{
+		cursor: pointer;
+		margin: 190px 0 0 190px;
+		animation: nube_a 10s linear 1s infinite;
+		-webkit-animation: nube_a 10s linear 1s infinite;
+	}
+	#nube_eco{
+		cursor: pointer;
+		margin: 100px 0 0 796px;
+		animation: nube_b 15s linear 1s infinite;
+		-webkit-animation: nube_b 15s linear 1s infinite;
+	}
+	#nube_gaia{
+		cursor: pointer;
+		margin: 362px 0 0 1460px;
+		animation: nube_a 10s linear 3s infinite;
+		-webkit-animation: nube_a 10s linear 3s infinite;
+	}
+	#arboles{
+		margin: 660px 0 0 287px;
+	}
+	#edificios{
+		margin: -523px 0 0 0;
+		position: absolute;
+		width: 100%;
+	}
+	.e3{
+		width: 355px;
+		height: 422px;
+		float: left;
+		margin: 0 0 0 25%;
+		cursor: pointer;
+	}
+	.eco{
+		width: 371px;
+		height: 297px;
+		float: left;
+		margin: 70px 0 0 5%;
+		cursor: pointer;
+	}
+	.gaia{
+		width: 225px;
+		height: 278px;
+		float: left;
+		margin: 134px 0 0 11%;
+		cursor: pointer;
+	}
+	#avioneta{
+		margin-top: 60px;
+		margin-left: 85%;
+	}
+	#avioneta img{
+		cursor: pointer;
+	}
+	.separador{
+		clear: both;
+	}
+	#modal2{
+		width: 100%;
+		height: 200%;
+		background-color: rgba(0, 0, 0, 0.8);
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10000;
+		display: none;
+	}
+	#slider2_container2, #slider2_container, #slider2_container3{
+		display: block !important;
+	}
+	#modal2 .stage{
+		height: 1000px;
+		width: 100% !important;
+		left: 0% !important;
+	}
+	#modal2 .connected-carousels .carousel-stage{
+		height: 100% !important;
+	}
+	.connected-carousels{
+		margin-top: 0 !important;
+		margin: 0 auto !important;
+	}
+	.remodal-close{
+		position: absolute !important;
+		margin: 10px 0 0 97% !important;
+		display: block !important;
+		width: 45px !important;
+		height: 35px !important;
+		opacity: 0.5 !important;
+		background: rgba(0,0,0,0.5) !important;
+		border-radius: 5px !important;
+		border: 1px solid #fff !important;
+	}
+	.remodal-close:before{
+		font-size: 4rem !important;
+		top: 1px !important;
+		left: 4px !important;
+	}
+}
+@media only screen and (min-width: 1280px) and (max-width: 1919px){
+	/*===============================================================*/
+	body{
+		background: url(../images/fondo.jpg) !important;
+		background-size: 100% !important;
+		background-repeat-x: no-repeat !important;
+		background-repeat-y: repeat; 
+	}
+	#section3{
+		width: 1280px !important;
+		position: relative !important;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.scene{
+	 	width: 1280px;
+	 	position: relative !important;
+	 	margin: 0 auto;
+	 	overflow: hidden;
+	}
+	#fondo{
+		width: 1280px;
+		height: 678px;
+	}
+	#sol{
+		margin: 105px 0 0 33%;
+	}
+	#pasto_a{
+		margin: 540px 0 0 -200px;
+	}
+	#pasto_a img{
+		width: 2500px;
+		height: 80px;
+	}
+	#pasto_b{
+		margin: 575px 0 0 -200px;
+	}
+	#pasto_b img{
+		width: 2500px;
+		height: 80px;
+	}
+	#montanas_edificios{
+		margin: 5px 0 0 -15px;
+	}
+	#montanas_edificios img{
+		width: 1380px;
+    	height: 678px;
+	}
+	#calle{
+		margin: 635px 0 0 -70px;
+	}
+	#calle img{
+		width: 2060px;
+		height: 60px;
+	}
+	#cafe{
+		margin: 590px 0 0 -100px;
+	}
+	#cafe img{
+		width: 2120px;
+		height: 60px;
+	}
+	#nubes{
+		margin: 0px 0 0 0;
+	}
+	#nubes img{
+		width: 1280px;
+	}
+	#nube_e3{
+		cursor: pointer;
+		margin: 145px 0 0 50px;
+		animation: nube_a 10s linear 1s infinite;
+		-webkit-animation: nube_a 10s linear 1s infinite;
+	}
+	#nube_e3 img{
+		width: 185px;
+	}
+	#nube_eco{
+		cursor: pointer;
+		margin: 110px 0 0 565px;
+		animation: nube_b 15s linear 1s infinite;
+		-webkit-animation: nube_b 15s linear 1s infinite;
+	}
+	#nube_eco img{
+		width: 185px;
+	}
+	#nube_gaia{
+		cursor: pointer;
+		margin: 226px 0 0 1045px;
+		animation: nube_a 10s linear 3s infinite;
+		-webkit-animation: nube_a 10s linear 3s infinite;
+	}
+	#nube_gaia img{
+		width: 185px;
+	}
+	#arboles{
+		margin: 496px 0 0 200px;
+	}
+	#arboles img{
+		width: 800px;
+	}
+	#edificios{
+		margin: -277px 0 0 0;
+		position: absolute;
+		width: 100%;
+	}
+	.e3{
+		width: 200px;
+		height: 238px;
+		float: left;
+		margin: 0 0 0 29%;
+		cursor: pointer;
+	}
+	.e3 .front img, .e3 .back img{
+		width: 200px;
+	}
+	.eco{
+		width: 200px;
+		height: 160px;
+		float: left;
+		margin: 44px 0 0 7%;
+		cursor: pointer;
+	}
+	.eco .front img, .eco .back img{
+		width: 200px;
+	}
+	.gaia{
+		width: 116px;
+		height: 143px;
+		float: left;
+		margin: 88px 0 0 13%;
+		cursor: pointer;
+	}
+	.gaia .front img, .gaia .back img{
+		width: 116px;
+	}
+	#avioneta{
+		margin-top: 60px;
+		margin-left: 88%;
+	}
+	#avioneta img{
+		width: 600px;
+		cursor: pointer;
+	}
+	.separador{
+		clear: both;
+	}
+	#modal2{
+		width: 100%;
+		height: 200%;
+		background-color: rgba(0, 0, 0, 0.8);
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10000;
+		display: none;
+	}
+	#slider2_container2, #slider2_container, #slider2_container3{
+		display: block !important;
+	}
+	#modal2 .stage{
+		height: 1000px;
+		width: 100% !important;
+		left: 0% !important;
+	}
+	#modal2 .connected-carousels .carousel-stage{
+		height: 100% !important;
+	}
+	.connected-carousels{
+		margin-top: 0 !important;
+		margin: 0 auto !important;
+	}
+	.remodal-close{
+		position: absolute !important;
+		margin: 10px 0 0 95% !important;
+		display: block !important;
+		width: 45px !important;
+		height: 35px !important;
+		opacity: 0.5 !important;
+		background: rgba(0,0,0,0.5) !important;
+		border-radius: 5px !important;
+		border: 1px solid #fff !important;
+	}
+	.remodal-close:before{
+		font-size: 4rem !important;
+		top: 1px !important;
+		left: 4px !important;
+	}
+	
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+	/*===============================================================*/
+	body{
+		background: url(../images/fondo.jpg) !important;
+		background-size: 100% !important;
+		background-repeat-x: no-repeat !important;
+		background-repeat-y: repeat; 
+	}
+	#section3{
+		width: 1024px !important;
+		position: relative !important;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.scene{
+	 	width: 1024px;
+	 	position: relative !important;
+	 	margin: 0 auto;
+	}
+	#fondo{
+		width: 1024px;
+		height: 678px;
+	}
+	#sol{
+		margin: 105px 0 0 33%;
+	}
+	#pasto_a{
+		margin: 540px 0 0 -200px;
+	}
+	#pasto_a img{
+		width: 2500px;
+		height: 80px;
+	}
+	#pasto_b{
+		margin: 575px 0 0 -200px;
+	}
+	#pasto_b img{
+		width: 2500px;
+		height: 80px;
+	}
+	#montanas_edificios{
+		margin: 30px 0 0 -100px;
+	}
+	#montanas_edificios img{
+		width: 1380px;
+    	height: 678px;
+	}
+	#calle{
+		margin: 635px 0 0 -70px;
+	}
+	#calle img{
+		width: 2060px;
+		height: 60px;
+	}
+	#cafe{
+		margin: 590px 0 0 -100px;
+	}
+	#cafe img{
+		width: 2120px;
+		height: 60px;
+	}
+	#nubes{
+		margin: 0px 0 0 0;
+	}
+	#nubes img{
+		width: 1280px;
+	}
+	#nube_e3{
+		cursor: pointer;
+		margin: 120px 0 0 105px;
+		animation: nube_a 10s linear 1s infinite;
+		-webkit-animation: nube_a 10s linear 1s infinite;
+	}
+	#nube_e3 img{
+		width: 135px;
+	}
+	#nube_eco{
+		cursor: pointer;
+		margin: 33px 0 0 462px;
+		animation: nube_b 15s linear 1s infinite;
+		-webkit-animation: nube_b 15s linear 1s infinite;
+	}
+	#nube_eco img{
+		width: 135px;
+	}
+	#nube_gaia{
+		cursor: pointer;
+		margin: 212px 0 0 871px;
+		animation: nube_a 10s linear 3s infinite;
+		-webkit-animation: nube_a 10s linear 3s infinite;
+	}
+	#nube_gaia img{
+		width: 135px;
+	}
+	#arboles{
+		margin: 496px 0 0 35px;
+	}
+	#arboles img{
+		width: 800px;
+	}
+	#edificios{
+		margin: -277px 0 0 0;
+		position: absolute;
+		width: 100%;
+	}
+	.e3{
+		width: 200px;
+		height: 238px;
+		float: left;
+		margin: 0 0 0 20%;
+		cursor: pointer;
+	}
+	.e3 .front img, .e3 .back img{
+		width: 200px;
+	}
+	.eco{
+		width: 200px;
+		height: 160px;
+		float: left;
+		margin: 44px 0 0 9%;
+		cursor: pointer;
+	}
+	.eco .front img, .eco .back img{
+		width: 200px;
+	}
+	.gaia{
+		width: 116px;
+		height: 143px;
+		float: left;
+		margin: 88px 0 0 13%;
+		cursor: pointer;
+	}
+	.gaia .front img, .gaia .back img{
+		width: 116px;
+	}
+	#avioneta{
+		margin-top: 60px;
+		margin-left: 88%;
+	}
+	#avioneta img{
+		width: 600px;
+		cursor: pointer;
+	}
+	.separador{
+		clear: both;
+	}
+	#modal2{
+		width: 100%;
+		height: 200%;
+		background-color: rgba(0, 0, 0, 0.8);
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10000;
+		display: none;
+	}
+	#slider2_container2, #slider2_container, #slider2_container3{
+		display: block !important;
+	}
+	#modal2 .stage{
+		height: 1000px;
+		width: 100% !important;
+		left: 0% !important;
+	}
+	#modal2 .connected-carousels .carousel-stage{
+		height: 100% !important;
+	}
+	.connected-carousels{
+		margin-top: 0 !important;
+		margin: 0 auto !important;
+	}
+	.remodal-close{
+		position: absolute !important;
+		margin: 10px 0 0 95% !important;
+		display: block !important;
+		width: 45px !important;
+		height: 35px !important;
+		opacity: 0.5 !important;
+		background: rgba(0,0,0,0.5) !important;
+		border-radius: 5px !important;
+		border: 1px solid #fff !important;
+	}
+	.remodal-close:before{
+		font-size: 4rem !important;
+		top: 1px !important;
+		left: 4px !important;
+	}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+	/*===============================================================*/
+	body{
+		background: url(../images/fondo.jpg) !important;
+	}
+	#section3{
+		width: 768px !important;
+		position: relative !important;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.scene{
+	 	width: 768px;
+	 	position: relative !important;
+	 	margin: 0 auto;
+	 	overflow: hidden;
+	}
+	#fondo{
+		width: 768px;
+		height: 678px;
+	}
+	#sol{
+		margin: 105px 0 0 33%;
+	}
+	#pasto_a{
+		margin: 540px 0 0 -200px;
+	}
+	#pasto_a img{
+		width: 2500px;
+		height: 80px;
+	}
+	#pasto_b{
+		margin: 575px 0 0 -200px;
+	}
+	#pasto_b img{
+		width: 2500px;
+		height: 80px;
+	}
+	#montanas_edificios{
+		margin: 30px 0 0 -100px;
+	}
+	#montanas_edificios img{
+		width: 1380px;
+    	height: 678px;
+	}
+	#calle{
+		margin: 635px 0 0 -70px;
+	}
+	#calle img{
+		width: 2060px;
+		height: 60px;
+	}
+	#cafe{
+		margin: 590px 0 0 -100px;
+	}
+	#cafe img{
+		width: 2120px;
+		height: 60px;
+	}
+	#nubes{
+		margin: 0px 0 0 0;
+	}
+	#nubes img{
+		width: 768px;
+	}
+	#nube_e3{
+		cursor: pointer;
+		margin: 215px 0 0 25px;
+		animation: nube_a 10s linear 1s infinite;
+		-webkit-animation: nube_a 10s linear 1s infinite;
+	}
+	#nube_e3 img{
+		width: 135px;
+	}
+	#nube_eco{
+		cursor: pointer;
+		margin: 60px 0 0 328px;
+		animation: nube_b 15s linear 1s infinite;
+		-webkit-animation: nube_b 15s linear 1s infinite;
+	}
+	#nube_eco img{
+		width: 135px;
+	}
+	#nube_gaia{
+		cursor: pointer;
+		margin: 178px 0 0 635px;
+		animation: nube_a 10s linear 3s infinite;
+		-webkit-animation: nube_a 10s linear 3s infinite;
+	}
+	#nube_gaia img{
+		width: 135px;
+	}
+	#arboles{
+		margin: 530px 0 0 35px;
+	}
+	#arboles img{
+		width: 610px;
+	}
+	#edificios{
+		margin: -242px 0 0 0;
+		position: absolute;
+		width: 100%;
+	}
+	.e3{
+		width: 200px;
+		height: 238px;
+		float: left;
+		margin: 0 0 0 19%;
+		cursor: pointer;
+	}
+	.e3 .front img, .e3 .back img{
+		width: 170px;
+	}
+	.eco{
+		width: 200px;
+		height: 160px;
+		float: left;
+		margin: 18px 0 0 3%;
+		cursor: pointer;
+	}
+	.eco .front img, .eco .back img{
+		width: 200px;
+	}
+	.gaia{
+		width: 116px;
+		height: 143px;
+		float: left;
+		margin: 57px 0 0 8%;
+		cursor: pointer;
+	}
+	.gaia .front img, .gaia .back img{
+		width: 116px;
+	}
+	#avioneta{
+		margin-top: 60px;
+		margin-left: 88%;
+	}
+	#avioneta img{
+		width: 600px;
+		cursor: pointer;
+	}
+	.separador{
+		clear: both;
+	}
+	#modal2{
+		width: 100%;
+		height: 200%;
+		background-color: rgba(0, 0, 0, 0.8);
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10000;
+		display: none;
+	}
+	#slider2_container2, #slider2_container, #slider2_container3{
+		display: block !important;
+	}
+	#modal2 .stage{
+		height: 1000px;
+		width: 100% !important;
+		left: 0% !important;
+	}
+	#modal2 .connected-carousels .carousel-stage{
+		height: 100% !important;
+	}
+	.connected-carousels{
+		margin-top: 0 !important;
+		margin: 0 auto !important;
+	}
+	.remodal-close{
+		position: absolute !important;
+		margin: 10px 0 0 93% !important;
+		display: block !important;
+		width: 45px !important;
+		height: 35px !important;
+		opacity: 0.5 !important;
+		background: rgba(0,0,0,0.5) !important;
+		border-radius: 5px !important;
+		border: 1px solid #fff !important;
+	}
+	.remodal-close:before{
+		font-size: 4rem !important;
+		top: 1px !important;
+		left: 4px !important;
+	}
+	#footer{
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 767px) and (min-width: 667px){
+	/*===============================================================*/
+	body{
+		background: url(../images/fondo.jpg) !important;
+	}
+	#section3{
+		width: 667px !important;
+		position: relative !important;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.scene{
+	 	width: 667px;
+	 	position: relative !important;
+	 	margin: 0 auto;
+	 	overflow: hidden;
+	}
+	#fondo{
+		width: 667px;
+		height: 375px;
+	}
+	#sol{
+		margin: -155px 0 0 0;
+	}
+	#pasto_a{
+		margin: 330px 0 0 -200px;
+		display: none !important;
+	}
+	#pasto_a img{
+		width: 2500px;
+		height: 80px;
+	}
+	#pasto_b{
+		margin: 345px 0 0 -200px;
+		display: none !important;
+	}
+	#pasto_b img{
+		width: 2500px;
+		height: 80px;
+	}
+	#montanas_edificios{
+		margin: 25px 0 0 -55px;
+	}
+	#montanas_edificios img{
+		width: 815px;
+    	height: 366px;
+	}
+	#calle{
+		margin: 335px 0 0 -70px;
+	}
+	#calle img{
+		width: 2060px;
+		height: 60px;
+	}
+	#cafe{
+		margin: 290px 0 0 -100px;
+	}
+	#cafe img{
+		width: 2120px;
+		height: 60px;
+	}
+	#nubes{
+		margin: 0px 0 0 0;
+	}
+	#nubes img{
+		width: 667px;
+	}
+	#nube_e3{
+		cursor: pointer;
+		margin: 49px 0 0 60px;
+		animation: nube_a 10s linear 1s infinite;
+		-webkit-animation: nube_a 10s linear 1s infinite;
+	}
+	#nube_e3 img{
+		width: 90px;
+	}
+	#nube_eco{
+		cursor: pointer;
+		margin: 90px 0 0 290px;
+		animation: nube_b 15s linear 1s infinite;
+		-webkit-animation: nube_b 15s linear 1s infinite;
+	}
+	#nube_eco img{
+		width: 90px;
+	}
+	#nube_gaia{
+		cursor: pointer;
+		margin: 30px 0 0 490px;
+		animation: nube_a 10s linear 3s infinite;
+		-webkit-animation: nube_a 10s linear 3s infinite;
+	}
+	#nube_gaia img{
+		width: 90px;
+	}
+	#arboles{
+		margin: 225px 0 0 0px;
+	}
+	#arboles img{
+		width: 550px;
+	}
+	#edificios{
+		margin: -231px 0 0 0;
+		position: absolute;
+		width: 100%;
+	}
+	.e3{
+		width: 150px;
+		height: 238px;
+		float: left;
+		margin: 0 0 0 15%;
+		cursor: pointer;
+	}
+	.e3 .front img, .e3 .back img{
+		width: 150px;
+	}
+	.eco{
+		width: 150px;
+		height: 160px;
+		float: left;
+		margin: 40px 0 0 9%;
+		cursor: pointer;
+	}
+	.eco .front img, .eco .back img{
+		width: 150px;
+	}
+	.gaia{
+		width: 90px;
+		height: 143px;
+		float: left;
+		margin: 72px 0 0 13%;
+		cursor: pointer;
+	}
+	.gaia .front img, .gaia .back img{
+		width: 90px;
+	}
+	#avioneta{
+		margin-top: 37px;
+		margin-left: 88%;
+	}
+	#avioneta img{
+		width: 500px;
+		cursor: pointer;
+	}
+	.separador{
+		clear: both;
+	}
+	#modal2{
+		width: 100%;
+		height: 200%;
+		background-color: rgba(0, 0, 0, 0.8);
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10000;
+		display: none;
+	}
+	#slider2_container2, #slider2_container, #slider2_container3{
+		display: block !important;
+	}
+	#modal2 .stage{
+		height: 1000px;
+		width: 100% !important;
+		left: 0% !important;
+	}
+	#modal2 .connected-carousels .carousel-stage{
+		height: 100% !important;
+	}
+	.connected-carousels{
+		margin-top: 0 !important;
+		margin: 0 auto !important;
+	}
+	.remodal-close{
+		position: absolute !important;
+		margin: 10px 0 0 93% !important;
+		display: block !important;
+		width: 45px !important;
+		height: 35px !important;
+		opacity: 0.5 !important;
+		background: rgba(0,0,0,0.5) !important;
+		border-radius: 5px !important;
+		border: 1px solid #fff !important;
+	}
+	.remodal-close:before{
+		font-size: 4rem !important;
+		top: 1px !important;
+		left: 4px !important;
+	}
+	#footer{
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 666px) and (min-width: 480px){
+	/*===============================================================*/
+	body{
+		background: url(../images/fondo.jpg) !important;
+	}
+	#section3{
+		width: 480px !important;
+		position: relative !important;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.scene{
+	 	width: 480px;
+	 	position: relative !important;
+	 	margin: 0 auto;
+	 	overflow: hidden;
+	}
+	#fondo{
+		width: 480px;
+		height: 375px;
+	}
+	#sol{
+		margin: -155px 0 0 0;
+	}
+	#pasto_a{
+		margin: 330px 0 0 -200px;
+		display: none !important;
+	}
+	#pasto_a img{
+		width: 2500px;
+		height: 80px;
+	}
+	#pasto_b{
+		margin: 345px 0 0 -200px;
+		display: none !important;
+	}
+	#pasto_b img{
+		width: 2500px;
+		height: 80px;
+	}
+	#montanas_edificios{
+		margin: 60px 0 0 -55px;
+	}
+	#montanas_edificios img{
+		width: 600px;
+    	height: 270px;
+	}
+	#calle{
+		margin: 288px 0 0 -70px;
+	}
+	#calle img{
+		width: 2060px;
+		height: 60px;
+	}
+	#cafe{
+		margin: 250px 0 0 -100px;
+	}
+	#cafe img{
+		width: 2120px;
+		height: 50px;
+	}
+	#nubes{
+		margin: 0px 0 0 0;
+	}
+	#nubes img{
+		width: 480px;
+	}
+	#nube_e3{
+		cursor: pointer;
+		margin: 30px 0 0 25px;
+		animation: nube_a 10s linear 1s infinite;
+		-webkit-animation: nube_a 10s linear 1s infinite;
+	}
+	#nube_e3 img{
+		width: 70px;
+	}
+	#nube_eco{
+		cursor: pointer;
+		margin: 88px 0 0 208px;
+		animation: nube_b 15s linear 1s infinite;
+		-webkit-animation: nube_b 15s linear 1s infinite;
+	}
+	#nube_eco img{
+		width: 70px;
+	}
+	#nube_gaia{
+		cursor: pointer;
+		margin: 35px 0 0 329px;
+		animation: nube_a 10s linear 3s infinite;
+		-webkit-animation: nube_a 10s linear 3s infinite;
+	}
+	#nube_gaia img{
+		width: 70px;
+	}
+	#arboles{
+		margin: 215px 0 0 0px;
+	}
+	#arboles img{
+		width: 390px;
+	}
+	#edificios{
+		margin: -209px 0 0 0;
+		position: absolute;
+		width: 100%;
+	}
+	.e3{
+		width: 100px;
+		height: 238px;
+		float: left;
+		margin: 0 0 0 15%;
+		cursor: pointer;
+	}
+	.e3 .front img, .e3 .back img{
+		width: 100px;
+	}
+	.eco{
+		width: 100px;
+		height: 160px;
+		float: left;
+		margin: 23px 0 0 11%;
+		cursor: pointer;
+	}
+	.eco .front img, .eco .back img{
+		width: 100px;
+	}
+	.gaia{
+		width: 60px;
+		height: 143px;
+		float: left;
+		margin: 42px 0 0 13%;
+		cursor: pointer;
+	}
+	.gaia .front img, .gaia .back img{
+		width: 60px;
+	}
+	#avioneta{
+		margin-top: 37px;
+		margin-left: 88%;
+	}
+	#avioneta img{
+		width: 500px;
+		cursor: pointer;
+	}
+	.separador{
+		clear: both;
+	}
+	#modal2{
+		width: 100%;
+		height: 200%;
+		background-color: rgba(0, 0, 0, 0.8);
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10000;
+		display: none;
+	}
+	#slider2_container2, #slider2_container, #slider2_container3{
+		display: block !important;
+	}
+	#modal2 .stage{
+		height: 1000px;
+		width: 100% !important;
+		left: 0% !important;
+	}
+	#modal2 .connected-carousels .carousel-stage{
+		height: 100% !important;
+	}
+	.connected-carousels{
+		margin-top: 0 !important;
+		margin: 0 auto !important;
+	}
+	.remodal-close{
+		position: absolute !important;
+		margin: 10px 0 0 93% !important;
+		display: block !important;
+		width: 45px !important;
+		height: 35px !important;
+		opacity: 0.5 !important;
+		background: rgba(0,0,0,0.5) !important;
+		border-radius: 5px !important;
+		border: 1px solid #fff !important;
+	}
+	.remodal-close:before{
+		font-size: 4rem !important;
+		top: 1px !important;
+		left: 4px !important;
+	}
+	#footer{
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 479px) and (min-width: 0px){
+	#section3{
+		display: none;
+	}
+	#aviso_cambio{
+		display: block !important;
+		width: 200px !important;
+		height: 200px !important;
+		background-size: 100% !important;
+		margin: 30% 0 0 25% !important;
+		z-index: 20 !important;
+		opacity: 0.7 !important;
+		animation: opa 1s linear 1s infinite;
+		-webkit-animation: opa 1s linear 1s infinite;
+		-moz-animation: opa 1s linear 1s infinite;
+		-o-animation: opa 1s linear 1s infinite;
+		-ms-animation: opa 1s linear 1s infinite;
+	}
+	#footer{
+		display: none !important;
+	}
+	@keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-webkit-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-moz-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-o-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-ms-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+}
+@keyframes nube_a{
+        0%{transform: rotate(0deg);}
+        25%{transform: rotate(-20deg);}
+        
+        75%{transform: rotate(20deg);}
+        100%{transform: rotate(0deg);}
+      }
+@-webkit-keyframes nube_a{
+        0%{transform: rotate(0deg);}
+        25%{transform: rotate(-20deg);}
+       
+        75%{transform: rotate(20deg);}
+        100%{transform: rotate(0deg);}
+      }
+@keyframes nube_b{
+        0%{transform: rotate(0deg);}
+        25%{transform: rotate(20deg);}
+        
+        75%{transform: rotate(-20deg);}
+        100%{transform: rotate(0deg);}
+      }
+@-webkit-keyframes nube_b{
+        0%{transform: rotate(0deg);}
+        25%{transform: rotate(20deg);}
+       
+        75%{transform: rotate(-20deg);}
+        100%{transform: rotate(0deg);}
+      }
+@keyframes sol{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+      }
+@-webkit-keyframes sol{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+      }
+
+@keyframes movimiento{
+		0%{margin-left: 0%;}
+		50%{margin-left: 100%;}
+		100%{margin-left: 0%;}
+}
+@-webkit-keyframes movimiento{
+		0%{margin-left: 0%;}
+		50%{margin-left: 100%;}
+		100%{margin-left: 0%;}
+}
+@keyframes movimientob{
+		0%{margin-left: 83%;}
+		50%{margin-left: 0%;}
+		100%{margin-left: 83%;}
+}
+@-webkit-keyframes movimientob{
+		0%{margin-left: 83%;}
+		50%{margin-left: 0%;}
+		100%{margin-left: 83%;}
+}
+@keyframes movimientoc{
+		0%{margin-left: 0%;}
+		50%{margin-left: 83%;}
+		100%{margin-left: 0%;}
+}
+@-webkit-keyframes movimientoc{
+		0%{margin-left: 0%;}
+		50%{margin-left: 83%;}
+		100%{margin-left: 0%;}
+}

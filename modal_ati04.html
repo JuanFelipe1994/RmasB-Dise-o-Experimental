@@ -1,0 +1,220 @@
+<!-- Google analitycs -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71061432-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Desabilita la opcion de seleccionar texto -->
+    <script type="text/javascript">
+      function disableselect(e){return false }
+      function reEnable(){return true}
+      //if IE4 
+      // disable text selection 
+      //if NS6
+      if (window.sidebar){
+        //document.onmousedown=disableselect
+        // the above line creates issues in mozilla so keep it commented.
+        document.onclick=reEnable
+      }
+      function clickIE(){
+        if (document.all){
+          (message);
+          return false;
+        }
+      }
+      </script>
+      <!-- Desabilita la opcion de click derecho -->
+      <script type="text/javascript">
+        // disable right click
+        window.onerror = new Function("return true");
+        //No permite seleccionar el contenido de una página 
+        document.oncontextmenu = function(){return false};
+      </script>
+      <!-- Borrar el portapapeles con el uso de teclado -->
+      <script type="text/javascript">
+      //Borra el Portapapeles con el uso del teclado
+      if (document.layers)
+        document.captureEvents(Event.KEYPRESS)
+        function backhome(e){
+          window.clipboardData.clearData();
+        }
+    </script>
+<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+<button data-remodal-action="close" class="remodal-close" aria-label="Close" id="cerrar_carousel" style="margin: 1% 0 0 92%;"></button>
+<button class="boton_menu_smartphone2"><p id="pmas">i</p></button>
+<div class="connected-carousels"><!--TOTAL CONTENIDO FOTOS ATI 04-->
+    <div class="stage"><!--IMAGEN FULL SCREEN CONTENIDO FOTOS ATI 04-->
+        <div class="carousel carousel-stage">
+            <ul class="fotos_grande" id="fotos_ati04">
+                <!-- ========================================================================================= -->
+                <div id="slider2_ati04" style="position: relative; margin:0;display:block; overflow: hidden; ">
+                    <!-- Slides Container -->
+                    <div u="slides" id="ati04" style="cursor: move; position: absolute; left: 0px; top: 0px; overflow: hidden;">
+                        <div>
+                            <img u="image" src="img/ati04_1_1920-1080.jpg" />
+                        </div>
+                        <div>
+                            <img u="image" src="img/ati04_2_1920-1080.jpg" />
+                        </div>
+                        <div>
+                            <img u="image" src="img/ati04_3_1920-1080.jpg" />
+                        </div>
+                        <div>
+                            <img u="image" src="img/ati04_4_1920-1080.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================ -->
+            </ul>
+        </div>
+        <a href="#" class="prev prev-stage"><span>-</span></a>
+        <a href="#" class="next next-stage"><span>+</span></a>
+    </div>
+    <div style="float:right;width:100%;"><!--CONTENIDO TITULO-TEXTO-BOTONES ATI 04-->
+    <br>
+    <br>
+    <h2 id="modal1Title" style="color:#fff;">ATI 04</h2>
+    <br>
+    <div class="contenedor_botones" name="#slider2_ati04">
+    <button data-remodal-action="" class="remodal-confirm freformas" id="remodal_f" style="margin-left:45%; background:rgba(237,50,54,1);" disabled="disabled" pagina="fotos_ati04.html">Fotos</button>
+    <button data-remodal-action="" class="remodal-confirm" id="remodal_pl" pagina="planos_ati04.html">Planos</button>
+    <!-- <button data-remodal-action="" class="remodal-confirm" id="remodal_pr">Proceso</button> -->
+    </div>
+    </div>
+    
+    <div id="contentsmartphone2" name="#slider2_ati04">
+        <!-- <button data-remodal-action="close" class="remodal-close" id="close_option" aria-label="Close"></button> -->
+        <h2 id="titulosmartphone" style="color:#fff;margin-top:0.4%;">ATI 04</h2>
+        <button data-remodal-action="" class="remodal-confirm" id="remodal_f" style="margin-left:45%; background:rgba(237,50,54,1);" disabled="disabled" pagina="fotos_ati04.html">Fotos</button>
+        <button data-remodal-action="" class="remodal-confirm" id="remodal_pl" pagina="planos_ati04.html">Planos</button>
+    </div>
+    <div class="navigation" id="sub-navigation" style="display:none;"><!--CAROUSEL CONTENIDO FOTOS ATI 04-->
+        <a href="#" class="prev prev-navigation">-</a>
+        <a href="#" class="next next-navigation">+</a> 
+        <div class="carousel carousel-navigation"><!--CAROUSEL CONTENIDO FOTOS ATI 04-->
+            <ul>
+                <li><img src="img/ati04_1_1920-1080.jpg" width="100" height="100" alt=""></li>
+                <li><img src="img/ati04_2_1920-1080.jpg" width="100" height="100" alt=""></li>
+                <li><img src="img/ati04_3_1920-1080.jpg" width="100" height="100" alt=""></li>
+                <li><img src="img/ati04_4_1920-1080.jpg" width="100" height="100" alt=""></li>                        
+            </ul>
+        </div>
+    </div>
+</div>
+<br>
+<script type="text/javascript" src="jcarousel/libs/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/general.js"></script>
+<!-- <button data-remodal-action="confirm" class="remodal-confirm">Eco reseña</button> -->
+<script type="text/javascript">
+    
+    function cargarPaginaAti04 () {
+        //resolucion de las imagenes de acuerdo a la pantalla
+        var ancfot = $(window).width();
+        var altfot = $(window).height();
+        $("#slider2_ati04, #ati04, #ati04 > div, #ati04 > div > img").css({"width":+ancfot+"px", "height":+altfot+"px"});
+
+        $(window).resize(function(){
+            var ancfot = $(window).width();
+            var altfot = $(window).height();
+            $("#slider2_ati04, #ati04, #ati04 > div, #ati04 > div > img").css({"width":+ancfot+"px", "height":+altfot+"px"});
+        });
+
+        // carga el resto de imagenes del carrusel
+        // setTimeout(function(){
+        //     for(var i = 11; i <19; i++){
+        //         var content_img = '<div><img u="image" src="img/e3'+i+'.jpg" /></div>';
+        //         $("#e3").append(content_img);
+        //     }
+        // }, 1000);
+        
+        // carga la funcion de carrusel para las fotos, planos y procesos
+        setTimeout(function(){jssor_slider2_starter('slider2_ati04');}, 1200);
+        
+        // carga la pagina correspondiente al hacer click en los botoes de planos, fotos, proceso
+        $("button").on("click",function(){
+            $(".boton_menu_smartphone2").animate({"opacity":"0.5","margin":"-45% 0 0 104%"});
+            $(".boton_menu_smartphone2").children("p").remove();
+            $(".boton_menu_smartphone2").append("<p id='pmas'>i</p>");
+            $(".boton_menu_smartphone2").css({"background":"#000","color":"rgba(237,50,54,1)"});
+            $("#contentsmartphone2").animate({"margin-left":"130%"},500);
+            //$("#cerrar_carousel").css({"display":"block"});
+            $("#cerrar_carousel").animate({"margin":"1% 0 0 92%"},500);
+        });
+        // cambia el ancho del contenido de la informacion
+        var identificarAncho = $(window).width();
+        
+        //alert(identificarAncho);
+        if (identificarAncho <= 668) {
+            $(".boton_menu_smartphone2").on("click",function(){
+                var pos0 = $("#contentsmartphone2").css("margin-left");
+                pos0 = pos0.substring(0, pos0.length - 2);
+                //alert(pos0);
+                //if para el contenido informacion en smartphone
+                if (pos0 > 500) {
+                    $(".boton_menu_smartphone2").animate({"opacity":"1","margin":"-49% 0 0 104%"});
+                    $(".boton_menu_smartphone2").children("p").remove();
+                    $(".boton_menu_smartphone2").append("<p id='pmenos'>i</p>");
+                    $(".boton_menu_smartphone2").css({"background":"rgba(237,50,54,1)","color":"#fff"});
+                    $("#contentsmartphone2").animate({"margin-left":"0%"},500);
+                    //$("#cerrar_carousel").css({"display":"none"});
+                    $("#cerrar_carousel").animate({"margin":"1% 0 0 110%"},500);
+                }
+                //else contenido de informacion para tablet o mas grande
+                else{
+                    $(".boton_menu_smartphone2").animate({"opacity":"0.5","margin":"-45% 0 0 104%"});
+                    $(".boton_menu_smartphone2").children("p").remove();
+                    $(".boton_menu_smartphone2").append("<p id='pmas'>i</p>");
+                    $(".boton_menu_smartphone2").css({"background":"#000","color":"rgba(237,50,54,1)"});
+                    $("#contentsmartphone2").animate({"margin-left":"130%"},500);
+                    //$("#cerrar_carousel").css({"display":"block"});
+                    $("#cerrar_carousel").animate({"margin":"1% 0 0 92%"},500);
+                }
+                $(".remodal-close").on("click",function(){
+                    $(".boton_menu_smartphone2").css({"opacity":"0.5"});
+                    $("#contentsmartphone2").animate({"margin-left":"130%"},500);
+                    //$("#cerrar_carousel").animate({"margin":"2% 0 0 -5%"},500);
+                });
+            });
+        }
+        else{
+            $(".boton_menu_smartphone2").on("click",function(){
+                var pos1 = $("#contentsmartphone2").css("margin-left");
+                pos1 = pos1.substring(0, pos1.length - 2);
+                //alert(pos1);
+                if (pos1 > 850) {
+                    $(".boton_menu_smartphone2").css({"opacity":"1"});
+                    $(".boton_menu_smartphone2").children("p").remove();
+                    $(".boton_menu_smartphone2").append("<p id='pmenos'>i</p>");
+                    $(".boton_menu_smartphone2").css({"background":"rgba(237,50,54,1)","color":"#fff"});
+                    $("#contentsmartphone2").animate({"margin-left":"0%"},500);
+                    $("#cerrar_carousel").animate({"margin":"1% 0 0 110%"},500);
+                    //$("#cerrar_carousel").animate({"margin":"2% 0 0 2%"},500);
+                }else{
+                    $(".boton_menu_smartphone2").css({"opacity":"0.5"});
+                    $(".boton_menu_smartphone2").children("p").remove();
+                    $(".boton_menu_smartphone2").append("<p id='pmas'>i</p>");
+                    $(".boton_menu_smartphone2").css({"background":"#000","color":"rgba(237,50,54,1)"});
+                    $("#contentsmartphone2").animate({"margin-left":"130%"},500);
+                    $("#cerrar_carousel").animate({"margin":"1% 0 0 92%"},500);
+                }
+                $(".remodal-close").on("click",function(){
+                    $(".boton_menu_smartphone2").css({"opacity":"0.5"});
+                    $("#contentsmartphone2").animate({"margin-left":"130%"},500);
+                    //$("#cerrar_carousel").animate({"margin":"2% 0 0 -5%"},500);
+                });
+            });
+        }
+        // ocultar el preloader al terminar de cargar la pagina
+        ocultarPreload();
+        //mouse
+        mostrarMouse();
+    }
+
+    $(document).on("ready", cargarPaginaAti04);
+    
+</script>

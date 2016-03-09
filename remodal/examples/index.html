@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Remodal example</title>
+  <meta name="description" content="Remodal example">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../dist/remodal.css">
+  <link rel="stylesheet" href="../dist/remodal-default-theme.css">
+  <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+        <!-- Shared assets -->
+        <link rel="stylesheet" type="text/css" href="jcarousel/examples/_shared/css/style.css">
+
+        <!-- Example assets -->
+        <link rel="stylesheet" type="text/css" href="jcarousel/jcarousel.connected-carousels.css">
+
+        <script type="text/javascript" src="jcarousel/libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="jcarousel/dist/jquery.jcarousel.min.js"></script>
+
+        <script type="text/javascript" src="jcarousel/jcarousel.connected-carousels.js"></script>
+
+
+  <style>
+    .remodal-bg.with-red-theme.remodal-is-opening,
+    .remodal-bg.with-red-theme.remodal-is-opened {
+      filter: none;
+    }
+
+    .remodal-overlay.with-red-theme {
+      background-color: #f44336;
+    }
+
+    .remodal.with-red-theme {
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ACA VOY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <!-- <a href="#modal">Modal №1</a><br> -->
+  <li><a href="#modal"><img src="img/iseo_dia1_250-250.jpg"></a></li>
+  
+
+
+<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+  <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+
+        <div class="wrapper">
+           
+            <div class="connected-carousels">
+                <div class="stage">
+                    <div class="carousel carousel-stage">
+                        <ul>
+                            <li><img src="img/eco104_11_1920-1080.jpg" width="865" height="600" alt=""></li>
+                            <li><img src="img/eco104_11_1920-1080.jpg" width="865" height="600" alt=""></li>
+                            <li><img src="img/eco104_11_1920-1080.jpg" width="865" height="600" alt=""></li>
+                            <li><img src="img/eco104_11_1920-1080.jpg" width="865" height="600" alt=""></li>
+                            <li><img src="img/eco104_11_1920-1080.jpg" width="865" height="600" alt=""></li>
+                            <li><img src="img/eco104_11_1920-1080.jpg" width="865" height="600" alt=""></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="prev prev-stage"><span>&lsaquo;</span></a>
+                    <a href="#" class="next next-stage"><span>&rsaquo;</span></a>
+                </div>
+
+                <div class="navigation">
+                    <a href="#" class="prev prev-navigation">&lsaquo;</a>
+                    <a href="#" class="next next-navigation">&rsaquo;</a>
+                    <div class="carousel carousel-navigation">
+                        <ul>
+                            <li><img src="img/eco104_11_250-250.jpg" width="100" height="100" alt=""></li>
+                            <li><img src="img/eco104_11_250-250.jpg" width="100" height="100" alt=""></li>
+                            <li><img src="img/eco104_11_250-250.jpg" width="100" height="100" alt=""></li>
+                            <li><img src="img/eco104_11_250-250.jpg" width="100" height="100" alt=""></li>
+                            <li><img src="img/eco104_11_250-250.jpg" width="100" height="100" alt=""></li>
+                            <li><img src="img/eco104_11_250-250.jpg" width="100" height="100" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!-- <div style="float:right;width:24%;">
+    <h2 id="modal1Title" style="color:#fff;">CASA ISEO VILLETA CUNDINAMARCA</h2>
+    <p id="modal1Desc" style="color:#fff; text-align:justify;">
+      Año de construcción: 2006<br>Consta de: 6 alcobas (incluyendo la principal y la de huéspedes),Comedor, Sala, Estar de televisión, Salón de juegos, Piscina y jacuzzi , Gimnasio, Baño Turco,Cocina,7 baños,3 Terrazas, BBQ, Área de ropas, Alcoba de servicio, 6 parqueaderos. Todos los espacios cuentan con doble altura, lo que garantiza la circulación natural del aire y por tanto una adecuada temperatura interior.Área Construida Vivienda: 606,56 M2, (Área Privada 485 m2) Área total del lote: 7200 m2. 
+    </p>
+     
+  </div>
+  <img src="../../img/iseo_dia1_1920-1080.jpg" style="width:75%; height:600px; float:left;">
+  <br>
+  
+  <button data-remodal-action="" class="remodal-confirm" id="remodal_f">Fotos</button>
+  <button data-remodal-action="" class="remodal-confirm" id="remodal_pl">Planos</button>
+  <button data-remodal-action="" class="remodal-confirm" id="remodal_pr">Proceso</button>
+   
+  <br>
+  <div id="galeria_remodal" style="width:24%; height:233px; float:left;margin:10px 0 0 10px; display:none;border:1px solid red;"></div> -->
+  <!-- <button data-remodal-action="confirm" class="remodal-confirm">Eco reseña</button> -->
+</div>
+
+
+<!-- You can define the global options -->
+<script>
+  // window.REMODAL_GLOBALS = {
+  //   NAMESPACE: 'remodal',
+  //   DEFAULTS: {
+  //     hashTracking: true,
+  //     closeOnConfirm: true,
+  //     closeOnCancel: true,
+  //     closeOnEscape: true,
+  //     closeOnOutsideClick: true,
+  //     modifier: ''
+  //   }
+  // };
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../libs/jquery/dist/jquery.min.js"><\/script>')</script>
+<script src="../dist/remodal.js"></script>
+
+<!-- Events -->
+<script>
+  $(document).on('opening', '.remodal', function () {
+    console.log('opening');
+  });
+
+  $(document).on('opened', '.remodal', function () {
+    console.log('opened');
+  });
+
+  $(document).on('closing', '.remodal', function (e) {
+    console.log('closing' + (e.reason ? ', reason: ' + e.reason : ''));
+  });
+
+  $(document).on('closed', '.remodal', function (e) {
+    console.log('closed' + (e.reason ? ', reason: ' + e.reason : ''));
+  });
+
+  $(document).on('confirmation', '.remodal', function () {
+    console.log('confirmation');
+  });
+
+  $(document).on('cancellation', '.remodal', function () {
+    console.log('cancellation');
+  });
+
+//  Usage:
+//  $(function() {
+//
+//    // In this case the initialization function returns the already created instance
+//    var inst = $('[data-remodal-id=modal]').remodal();
+//
+//    inst.open();
+//    inst.close();
+//    inst.getState();
+//    inst.destroy();
+//  });
+
+  //  The second way to initialize:
+  $('[data-remodal-id=modal2]').remodal({
+    modifier: 'with-red-theme'
+  });
+</script>
+<script type="text/javascript">
+   
+  //alert("se pulsó el boton");
+  function cargaMenu1(datos){
+    $(".remodal-confirm").removeAttr("disabled");
+    $(this).attr("disabled", "disabled");
+    $("#galeria_remodal").css("display","block"); 
+    $("#remodal_f").css({
+      "background": "rgba(237,50,54,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    }); 
+    $("#remodal_pl").css({
+      "background": "rgba(0,0,0,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    });
+    $("#remodal_pr").css({
+      "background": "rgba(0,0,0,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    });
+    $("#galeria_remodal").load("galeria_remodal.html");
+    alert("si aparecio?");
+  }
+  function cargaMenu2(datos){
+    $(".remodal-confirm").removeAttr("disabled");
+    $(this).attr("disabled", "disabled");
+    $("#galeria_remodal").css("display","block"); 
+    $("#remodal_pl").css({
+      "background": "rgba(237,50,54,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    }); 
+    $("#remodal_f").css({
+      "background": "rgba(0,0,0,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    });
+    $("#remodal_pr").css({
+      "background": "rgba(0,0,0,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    });
+    $("#galeria_remodal").load("galeria_remodal2.html");
+    alert("si aparecio?");
+  }
+  function cargaMenu3(datos){
+    $(".remodal-confirm").removeAttr("disabled");
+    $(this).attr("disabled", "disabled");
+    $("#galeria_remodal").css("display","block"); 
+    $("#remodal_pr").css({
+      "background": "rgba(237,50,54,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    }); 
+    $("#remodal_pl").css({
+      "background": "rgba(0,0,0,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    });
+    $("#remodal_f").css({
+     "background": "rgba(0,0,0,1)",
+      "color":"#fff",
+      "border": "1px solid #fff"
+    });
+    $("#galeria_remodal").load("galeria_remodal3.html");
+    alert("si aparecio?");
+  }
+  function activarFuncion(){
+    $("#remodal_f").on("click", cargaMenu1);
+    $("#remodal_pl").on("click", cargaMenu2);
+    $("#remodal_pr").on("click", cargaMenu3);
+  }
+
+  $(document).on("ready", activarFuncion);
+  
+  
+
+</script>
+</body>
+</html>

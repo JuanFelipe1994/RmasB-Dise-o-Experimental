@@ -1,0 +1,153 @@
+#boton_e3{
+	background: url(../img/e3.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	z-index: 6000;
+	background-size: 100%;
+	margin: 8% 0 0 41%;
+	transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
+	animation-name:carrera;
+	-webkit-animation-name:carrera;
+	animation-duration: 6s;
+	-webkit-animation-duration: 6s;
+	cursor: pointer;
+}
+#boton_eco104{
+	background: url(../img/eco.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	z-index: 6000;
+	background-size: 100%;
+	margin: 8% 0 0 51%;
+	transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
+	animation-name:carrera;
+	-webkit-animation-name:carrera_b;
+	animation-duration: 6s;
+	-webkit-animation-duration: 6s;
+	cursor: pointer;
+}
+#boton_gaia104{
+	background: url(../img/gaia.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	z-index: 6000;
+	background-size: 100%;
+	margin: 8% 0 0 61%;
+	transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
+	animation-name:carrera;
+	-webkit-animation-name:carrera_c;
+	animation-duration: 6s;
+	-webkit-animation-duration: 6s;
+	cursor: pointer;
+}
+@keyframes carrera{
+	0%{left:-10%;opacity:0;}
+	20%{left:-10%;opacity: 0;}
+	75%{opacity: 0;}
+	100%{left:0;opacity:1;}
+}
+@-webkit-keyframes carrera{
+	0%{left:-10%;opacity:0;}
+	20%{left:-10%;opacity: 0;}
+	75%{opacity: 0;}
+	100%{left:0;opacity:1;}
+}
+@keyframes carrera_b{
+	0%{left:-10%;opacity:0;}
+	20%{left:-10%;opacity: 0;}
+	75%{opacity: 0;}
+	100%{left:0;opacity:1;}
+}
+@-webkit-keyframes carrera_b{
+	0%{left:-10%;opacity:0;}
+	20%{left:-10%;opacity: 0;}
+	75%{opacity: 0;}
+	100%{left:0;opacity:1;}
+}
+@keyframes carrera_c{
+	0%{left:-10%;opacity:0;}
+	20%{left:-10%;opacity: 0;}
+	75%{opacity: 0;}
+	100%{left:0;opacity:1;}
+}
+@-webkit-keyframes carrera_c{
+	0%{left:-10%;opacity:0;}
+	20%{left:-10%;opacity: 0;}
+	75%{opacity: 0;}
+	100%{left:0;opacity:1;}
+}
+#boton_e3:hover, #boton_eco104:hover, #boton_gaia104:hover{
+	transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
+	transform: scale(0.9,0.9);
+	-webkit-transform: scale(0.9,0.9);
+}
+.nubes, .nubesc{
+	background: url(../img/nubes.png);
+	width: 1295px;
+	height: 335px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 6000;
+	margin:6% 0 0 0;
+	animation-name:nubes;
+	-webkit-animation-name:nubes;
+	animation-duration:60s;
+	animation-iteration-count:infinite;
+	-webkit-animation-duration:60s;
+	-webkit-animation-iteration-count:infinite;
+	opacity: 0.5;
+}
+.nubesb{
+	background: url(../img/nubes.png);
+	width: 1295px;
+	height: 335px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 6000;
+	margin:6% 0 0 0;
+	animation-name:nubesb;
+	-webkit-animation-name:nubesb;
+	animation-duration:130s;
+	animation-iteration-count:infinite;
+	-webkit-animation-duration:130s;
+	-webkit-animation-iteration-count:infinite;
+	opacity: 0.5;
+}
+@keyframes nubes{
+	0%{left:0;}
+	100%{left:170%;}
+}
+@-webkit-keyframes nubes{
+	0%{left:0;}
+	100%{left:170%;}
+}
+@keyframes nubesb{
+	0%{left:0;}
+	100%{left:240%;}
+}
+@-webkit-keyframes nubesb{
+	0%{left:0;}
+	100%{left:240%;}
+}
+@keyframes nubes3{
+	0%{left:0;}
+	100%{left:240%;}
+}
+@-webkit-keyframes nubes3{
+	0%{left:0;}
+	100%{left:240%;}
+}
+
+
+
+
+

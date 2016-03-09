@@ -1,0 +1,74 @@
+<!-- Google analitycs -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71061432-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Desabilita la opcion de seleccionar texto -->
+    <script type="text/javascript">
+      function disableselect(e){return false }
+      function reEnable(){return true}
+      //if IE4 
+      // disable text selection 
+      //if NS6
+      if (window.sidebar){
+        //document.onmousedown=disableselect
+        // the above line creates issues in mozilla so keep it commented.
+        document.onclick=reEnable
+      }
+      function clickIE(){
+        if (document.all){
+          (message);
+          return false;
+        }
+      }
+      </script>
+      <!-- Desabilita la opcion de click derecho -->
+      <script type="text/javascript">
+        // disable right click
+        window.onerror = new Function("return true");
+        //No permite seleccionar el contenido de una página 
+        document.oncontextmenu = function(){return false};
+      </script>
+      <!-- Borrar el portapapeles con el uso de teclado -->
+      <script type="text/javascript">
+      //Borra el Portapapeles con el uso del teclado
+      if (document.layers)
+        document.captureEvents(Event.KEYPRESS)
+        function backhome(e){
+          window.clipboardData.clearData();
+        }
+    </script>
+<div u="slides" id="versalles" style="cursor: move; position: absolute; left: 0px; top: 0px; overflow: hidden;">
+    <div>
+        <img u="image" src="img/versalles_plano1.jpg" />
+    </div>
+    <div>
+        <img u="image" src="img/versalles_plano2.jpg" />
+    </div>
+    <div>
+        <img u="image" src="img/versalles_plano3.jpg" />
+    </div>
+</div>
+
+<script type="text/javascript" src="js/general.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var ancfot = $(window).width();
+        var altfot = $(window).height();
+        $("#versalles, #versalles > div > img, #versalles > div").css({"width":+ancfot+"px", "height":+altfot+"px"});
+        jssor_slider2_starter('slider2_versalles');
+        ocultarPreload();
+    });
+    $(window).resize(function(){
+        var ancfot = $(window).width();
+        var altfot = $(window).height();
+        $("#versalles, #versalles > div > img, #versalles > div").css({"width":+ancfot+"px", "height":+altfot+"px"});
+    });
+</script>
+<!-- ============================================================ -->

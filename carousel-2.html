@@ -1,0 +1,260 @@
+<!-- Google analitycs -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71061432-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Desabilita la opcion de seleccionar texto -->
+    <script type="text/javascript">
+      function disableselect(e){return false }
+      function reEnable(){return true}
+      //if IE4 
+      // disable text selection 
+      //if NS6
+      if (window.sidebar){
+        //document.onmousedown=disableselect
+        // the above line creates issues in mozilla so keep it commented.
+        document.onclick=reEnable
+      }
+      function clickIE(){
+        if (document.all){
+          (message);
+          return false;
+        }
+      }
+      </script>
+      <!-- Desabilita la opcion de click derecho -->
+      <script type="text/javascript">
+        // disable right click
+        window.onerror = new Function("return true");
+        //No permite seleccionar el contenido de una página 
+        document.oncontextmenu = function(){return false};
+      </script>
+      <!-- Borrar el portapapeles con el uso de teclado -->
+      <script type="text/javascript">
+      //Borra el Portapapeles con el uso del teclado
+      if (document.layers)
+        document.captureEvents(Event.KEYPRESS)
+        function backhome(e){
+          window.clipboardData.clearData();
+        }
+    </script>
+<script type="text/javascript" src="jcarousel/libs/jquery/jquery.js"></script>
+<div class="wrapper">          
+    <div class="connected-carousels">
+        <div class="stage">
+            <div class="carousel carousel-stage" style="display:none;">
+                <ul>
+                    <li><!-- <img src="../_shared/img/img1.jpg" width="600" height="400" alt=""> --></li>
+                    <li><!-- <img src="../_shared/img/img2.jpg" width="600" height="400" alt=""> --></li>
+                    <li><!-- <img src="../_shared/img/img3.jpg" width="600" height="400" alt=""> --></li>
+                    <li><!-- <img src="../_shared/img/img4.jpg" width="600" height="400" alt=""> --></li>
+                    <li><!-- <img src="../_shared/img/img5.jpg" width="600" height="400" alt=""> --></li>
+                    <li><!-- <img src="../_shared/img/img6.jpg" width="600" height="400" alt=""> --></li>
+                </ul>
+            </div>           
+            <!-- <a href="#" class="prev prev-stage"><span>&lsaquo;</span></a>
+            <a href="#" class="next next-stage"><span>&rsaquo;</span></a> -->
+        </div>
+        <div class="navigation">
+            <!-- <a href="#" id="cursormenos" class="prev prev-navigation">-</a> -->
+            <a href="#" id="cursormas" class="next next-navigation"><p> + </p></a>
+            <div class="carousel carousel-navigation">
+                <ul id="ul-construccion">
+                    <li><a href="#modal_beacuadrado"><img src="img/beacuadrado.jpg" width="150" height="250" alt=""></a></li><!--BEA CUADRADO-->
+                    <li><a href="#modal_atio3"><img src="img/ati03.jpg" width="150" height="250" alt=""></a></li><!--ATIO3-->
+                    <li><a href="#modal_ati04"><img src="img/ati04.jpg" width="150" height="250" alt=""></a></li><!--ATI04-->
+                    <li><a href="#modal_versalles"><img src="img/versalles.jpg" width="150" height="250" alt=""></a></li><!--VERSALLES-->
+                    <li><a href="#modal_casa100"><img src="img/casa100.jpg" width="150" height="250" alt=""></a></li><!--CASA100-->
+                    <li><a href="#modal_bambu"><img src="img/bambu.jpg" style="width:150px;height:250px;background-size:100%;" alt=""></a></li><!--BAMBÚ-->
+
+                    <li><a href="#modal_beacuadrado"><img src="img/beacuadrado.jpg" width="150" height="250" alt=""></a></li><!--BEA CUADRADO-->
+                    <li><a href="#modal_atio3"><img src="img/ati03.jpg" width="150" height="250" alt=""></a></li><!--ATIO3-->
+                    <li><a href="#modal_ati04"><img src="img/ati04.jpg" width="150" height="250" alt=""></a></li><!--ATI04-->
+                    <li><a href="#modal_versalles"><img src="img/versalles.jpg" width="150" height="250" alt=""></a></li><!--VERSALLES-->
+                    <li><a href="#modal_casa100"><img src="img/casa100.jpg" width="150" height="250" alt=""></a></li><!--CASA100-->
+                    <li><a href="#modal_bambu"><img src="img/bambu.jpg" style="width:150px;height:250px;background-size:100%;" alt=""></a></li><!--BAMBÚ-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <script src="remodal/dist/remodal.js"></script> -->
+<script type="text/javascript" src="js/general.js"></script>
+<script>
+    jssor_slider2_starter = function (containerId) {
+        var options = {
+            $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+            $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+            $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+            $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+            $ArrowKeyNavigation: true,                          //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+            $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+            $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+            //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+            //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+            $SlideSpacing: 0,                                   //[Optional] Space between each slide in pixels, default value is 0
+            $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+            $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+            $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+            $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+            $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+            $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+            },
+
+            $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                $AutoCenter: 3,                                 //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+                $Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+                $SpacingX: 3,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                $SpacingY: 3,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+                $DisplayPieces: 9,                              //[Optional] Number of pieces to display, default value is 1
+                $ParkingPosition: 260,                          //[Optional] The offset position to park thumbnail
+                $Orientation: 1,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                $DisableDrag: false                            //[Optional] Disable drag or not, default value is false
+            }
+        };
+
+        var jssor_slider2 = new $JssorSlider$(containerId, options);
+        //responsive code begin
+        //you can remove responsive code if you don't want the slider scales while window resizes =======CODIGO PARA RESPONSIVE ===========
+        // function ScaleSlider() {
+        //     var parentWidth = jssor_slider2.$Elmt.parentNode.clientWidth;
+        //     if (parentWidth)
+        //         jssor_slider2.$ScaleWidth(Math.min(parentWidth, 600));
+        //     else
+        //         $Jssor$.$Delay(ScaleSlider, 30);
+        // }
+
+        // ScaleSlider();
+        // $Jssor$.$AddEvent(window, "load", ScaleSlider);
+
+        // $Jssor$.$AddEvent(window, "resize", $Jssor$.$WindowResizeFilter(window, ScaleSlider));
+        // $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+        //responsive code end
+    };
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        //aumenta o disminuye el alto y ancho de las imagenes del carousel segun el ancho de la ventana.
+        $(window).resize(function(){
+            var anchoWindow = $(window).width();
+            if (anchoWindow >= 1024){
+                $("#ul-construccion > li > a > img").css({"width":"300px","height":"500px"});
+            }else{
+                $("#ul-construccion > li > a > img").css({"width":"150px","height":"250px"});
+            }
+        });
+        //alert("se pulsó el boton");
+        function cargaMenu1(datos){
+            var pag = $(this).attr("pagina");
+            $(".remodal-confirm").removeAttr("disabled");
+            $(this).attr("disabled", "disabled");
+            $(".remodal-confirm").css({
+              "background": "rgba(0,0,0,1)",
+              "color":"#fff",
+              "border": "1px solid #fff"
+            });
+            $(this).css({
+              "background": "rgba(237,50,54,1)",
+              "color":"#fff",
+              "border": "1px solid #fff"
+            });
+            $(".fotos_grande").load(pag);
+        }
+        function activarFuncion(){
+            $(".remodal-confirm").on("click", cargaMenu1);
+            // $("#fotos_iseo").load("fotos_iseo.html");
+            // $("#fotos_eco104").load("fotos_eco104.html");
+            // $("#fotos_gaia104").load("fotos_gaia104.html");
+            // $("#fotos_e3").load("fotos_e3.html");
+        }
+        function cargarRemodal (datos) {
+            mostrarPreload();
+            var pagina = $(this).attr("href");
+            pagin = pagina.split("#");
+            $("#modal").load(pagin[1]+".html");
+            $("#modal").css("display", "block");
+        }
+        $("#ul-construccion > li > a").on("click", cargarRemodal);
+        // ==========================================
+        var anchoWindow = $(window).width();
+        //alert(anchoWindow);
+        if (anchoWindow >= 1024) {
+            $("#ul-construccion li a").children("img").css({"width":"300px","height":"500px"});
+        }
+        var pantalla = $("#ul-construccion li a img").width();
+        //alert(pantalla);
+        if (pantalla > 150) {
+             
+            var cont = 1;
+            function carouselder1024(){     
+                if (cont < 7) {
+                    var left_div = $("#ul-construccion").css("margin-left");
+                    left_div = left_div.substring(0, left_div.length - 2);
+                    left_div = left_div - 300;
+                    if (left_div <= -1800) {
+                        $("#ul-construccion").animate({"margin-left":left_div+"px"},200);
+                        setTimeout(function(){
+                            $("#ul-construccion").css({"margin-left":"0px"});
+                            cont=1;
+                        },210);
+                    }else{
+                        $("#ul-construccion").animate({"margin-left":left_div+"px"},200);
+                        cont = cont+1;
+                    }
+                }else{
+                    $("#ul-construccion").animate({"margin-left":"0px"},200);
+                    cont=1;
+                }
+            }
+            $("#cursormas").on("click",carouselder1024);  
+        }else{
+           
+            var cont = 1;
+            function carouselder2(){     
+                if (cont < 7) {
+                    var left_div = $("#ul-construccion").css("margin-left");
+                    left_div = left_div.substring(0, left_div.length - 2);
+                    //alert(left_div.substring(0, left_div.length - 2));
+                    left_div = left_div - 150;
+                    //alert(left_div);
+                    //$("#ul-construccion").animate({"margin-left":left_div+"px"},1000);
+                    if (left_div <= -900) {
+                        $("#ul-construccion").animate({"margin-left":left_div+"px"},200);
+                        setTimeout(function(){
+                            $("#ul-construccion").css({"margin-left":"0px"});
+                            cont=1;
+                        },210);
+                    }else{
+                        $("#ul-construccion").animate({"margin-left":left_div+"px"},200);
+                        cont = cont+1;
+                    }
+                }else{
+                    $("#ul-construccion").animate({"margin-left":"0px"},200);
+                    cont=1;
+                }
+            }
+             $("#cursormas").on("click",carouselder2);   
+        }
+    
+    }); 
+    activarFuncion();
+</script>
+
+<script>setTimeout(pintarli, 700);</script>

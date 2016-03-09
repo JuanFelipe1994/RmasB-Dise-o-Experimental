@@ -1,0 +1,283 @@
+<!-- Google analitycs -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71061432-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Desabilita la opcion de seleccionar texto -->
+    <script type="text/javascript">
+      function disableselect(e){return false }
+      function reEnable(){return true}
+      //if IE4 
+      // disable text selection 
+      //if NS6
+      if (window.sidebar){
+        //document.onmousedown=disableselect
+        // the above line creates issues in mozilla so keep it commented.
+        document.onclick=reEnable
+      }
+      function clickIE(){
+        if (document.all){
+          (message);
+          return false;
+        }
+      }
+      </script>
+      <!-- Desabilita la opcion de click derecho -->
+      <script type="text/javascript">
+        // disable right click
+        window.onerror = new Function("return true");
+        //No permite seleccionar el contenido de una página 
+        document.oncontextmenu = function(){return false};
+      </script>
+      <!-- Borrar el portapapeles con el uso de teclado -->
+      <script type="text/javascript">
+      //Borra el Portapapeles con el uso del teclado
+      if (document.layers)
+        document.captureEvents(Event.KEYPRESS)
+        function backhome(e){
+          window.clipboardData.clearData();
+        }
+    </script>
+<button id="boton_abreweb"><p id="pmas">i</p></button>
+<div id="content_diseno_web">
+     <h1> &nbsp; &#60; D I S E Ñ O &nbsp; W E B / &#62; </h1><div id="intermitente"></div>
+     <div class="separador"></div>
+     <div class="content_textweb">
+          <p> &nbsp; <span>&#60;</span> E n &nbsp; n u e s t r o &nbsp; d í a &nbsp; a &nbsp; d í a &nbsp; e n c o n t r a m o s &nbsp; s i t u a c i o n e s &nbsp; q u e &nbsp; p o d r í a n  &nbsp; m e j o r a r s e . &nbsp; P o r &nbsp; e s o &nbsp; i n c u r s i o n a m o s &nbsp; e n &nbsp; e l &nbsp; d i s e ñ o &nbsp; w e b , &nbsp; c r e a n d o &nbsp; h e r r a m i e n t a s &nbsp; q u e &nbsp; l e &nbsp; f a c i l i  t e n &nbsp; l a &nbsp; l a b o r &nbsp; d i a r i a &nbsp; a &nbsp; l a s &nbsp; p e r s o  n a s . &nbsp; C o n t á  c t a n o  s &nbsp; p a r a &nbsp; m a y o r &nbsp; i n f o r m a c i ó n . <span> / &#62; </span></p>
+     </div>
+     <div class="content_textweb_smartphone">
+           <p><span>&#60;</span> En nuestro día a día encontramos situaciones que podrían mejorarse. Por eso incursionamos en el diseño web, creando herramientas que le faciliten la labor diaria a las personas. Contáctanos para mayor información.<span> / &#62; </span></p>
+     </div>
+     <div class="separador"></div>
+     <div id="titulo1">&nbsp; &#60; D e s a r r o l l o &nbsp; d e &nbsp; S o f t w a r e / &#62;</div><div id="intermitente2"></div>
+     <div class="separador"></div>
+     <!-- <iframe id="frame1" src="#"></iframe>
+     <iframe id="frame2" src="#"></iframe> -->
+     <div id="frame1"></div>
+     <div id="frame2"></div>
+     <div class="separador"></div>
+     <div id="titulo2">&nbsp; &#60; D e s a r r o l l o &nbsp; W e b / &#62;</div><div id="intermitente3"></div>
+     <div class="separador"></div>
+     <a href="http://www.tributarasesores.com.co" target="_blank"><img id="tributar" src="img/tributar.png"></a>
+     <a href="http://www.editoreshache.com" target="_blank"><img id="hache" src="img/hache.png"></a>
+</div>
+<script type="text/javascript">
+     var soft;
+     var video1;
+     var video2;
+     var desweb;
+     var img1;
+     var img2;
+     var p;
+     var tamanoPantalla;
+     //================
+     var soft2;
+     var video12;
+     var video22;
+     var desweb2;
+     var img12;
+     var img22;
+     var p2;
+     //================
+     var soft3;
+     var video13;
+     var video23;
+     var desweb3;
+     var img13;
+     var img23;
+     var p3;
+     tamanoPantalla = $(window).width();
+     //alert(tamanoPantalla);
+     if (tamanoPantalla >= 1024) {
+          function efecto (){
+               $("#content_diseno_web").children("h1").animate({
+                    "width":"360px"
+               },2700);
+               setTimeout(function(){$("#intermitente").addClass("intermitente")}, 2700);
+               p = setTimeout(texto,2500);
+               soft = setTimeout(escribir_soft,13500);
+               setTimeout(function(){$("#intermitente2").addClass("intermitente2")},16500);
+               video2 = setTimeout(movimiento2,17000);
+               video1 = setTimeout(movimiento1,17500);
+               desweb = setTimeout(escribir_web,18000);
+               setTimeout(function(){$("#intermitente3").addClass("intermitente3")},21000);
+               img1 = setTimeout(movimientoimg1,21500);
+               img2 = setTimeout(movimientoimg2,22000);
+          }
+          function texto(){
+               $("#content_diseno_web").children("p").animate({
+                    "opacity":"1"
+               },3200);
+          }
+          function escribir_soft(){
+               $("#content_diseno_web").children("#titulo1").css("display","block");
+               $("#content_diseno_web").children("#titulo1").animate({
+                    "width":"378px"
+               },3000);
+          }
+          function movimiento2(){
+               $("#content_diseno_web").children("#frame2").animate({
+                    "margin":"1% 0 0 60%"
+               },1000);
+          }
+          function movimiento1(){
+               $("#content_diseno_web").children("#frame1").animate({
+                    "margin":"1% 0 0 12%"
+               },1000);
+          }
+          function escribir_web(){
+               $("#content_diseno_web").children("#titulo2").css("display","block");
+               $("#content_diseno_web").children("#titulo2").animate({
+                    "width":"270px"
+               },3000);
+          }
+          function movimientoimg1(){
+               $("#content_diseno_web").children("a").children("#tributar").animate({
+                    "margin":"1% 0 0 12%"
+               },500);
+          }
+          function movimientoimg2(){
+               $("#content_diseno_web").children("a").children("#hache").animate({
+                    "margin":"1% 0 0 60%"
+               },500);
+          }
+          efecto();
+     }
+     else if ((tamanoPantalla >= 768) && (tamanoPantalla < 1024)) {
+          function efecto2 (){
+               $("#content_diseno_web").children("h1").animate({
+                    "width":"235px"
+               },2700);
+               setTimeout(function(){$("#intermitente").addClass("intermitente")}, 2700);
+               p2 = setTimeout(texto2,2500);
+               soft2 = setTimeout(escribir_soft2,13500);
+               setTimeout(function(){$("#intermitente2").addClass("intermitente2")},16500);
+               video22 = setTimeout(movimiento22,17000);
+               video12 = setTimeout(movimiento12,17500);
+               desweb2 = setTimeout(escribir_web2,18000);
+               setTimeout(function(){$("#intermitente3").addClass("intermitente3")},21000);
+               img12 = setTimeout(movimientoimg12,21500);
+               img22 = setTimeout(movimientoimg22,22000);
+          }
+          function texto2(){
+               $("#content_diseno_web").children("p").animate({
+                    "opacity":"1"
+               },3200);
+          }
+          function escribir_soft2(){
+               $("#content_diseno_web").children("#titulo1").css("display","block");
+               $("#content_diseno_web").children("#titulo1").animate({
+                    "width":"280px"
+               },3000);
+          }
+          function movimiento22(){
+               $("#content_diseno_web").children("#frame2").animate({
+                    "margin":"1% 0 0 60%"
+               },1000);
+          }
+          function movimiento12(){
+               $("#content_diseno_web").children("#frame1").animate({
+                    "margin":"1% 0 0 12%"
+               },1000);
+          }
+          function escribir_web2(){
+               $("#content_diseno_web").children("#titulo2").css("display","block");
+               $("#content_diseno_web").children("#titulo2").animate({
+                    "width":"200px"
+               },3000);
+          }
+          function movimientoimg12(){
+               $("#content_diseno_web").children("a").children("#tributar").animate({
+                    "margin":"1% 0 0 12%"
+               },500);
+          }
+          function movimientoimg22(){
+               $("#content_diseno_web").children("a").children("#hache").animate({
+                    "margin":"1% 0 0 60%"
+               },500);
+          }
+          efecto2();
+     }
+     else if (tamanoPantalla <= 767) {
+          //alert("menor");
+          function efecto3 (){
+               $("#content_diseno_web").children("h1").animate({
+                    "width":"170px"
+               },2700);
+               setTimeout(function(){$("#intermitente").addClass("intermitente")}, 2700);
+               p3 = setTimeout(texto3,2500);
+               soft3 = setTimeout(escribir_soft3,3000);
+               setTimeout(function(){$("#intermitente2").addClass("intermitente2")},6200);
+               video23 = setTimeout(movimiento23,7000);
+               video13 = setTimeout(movimiento13,7500);
+               desweb3 = setTimeout(escribir_web3,8000);
+               setTimeout(function(){$("#intermitente3").addClass("intermitente3")},11000);
+               img13 = setTimeout(movimientoimg13,11500);
+               img23 = setTimeout(movimientoimg23,12000);
+          }
+          function texto3(){
+               $("#content_diseno_web").children("p").animate({
+                    "opacity":"1"
+               },3200);
+          }
+          function escribir_soft3(){
+               $("#content_diseno_web").children("#titulo1").css("display","block");
+               $("#content_diseno_web").children("#titulo1").animate({
+                    "width":"265px"
+               },3000);
+          }
+          function movimiento23(){
+               $("#content_diseno_web").children("#frame2").animate({
+                    "margin":"1% 0 0 60%"
+               },1000);
+          }
+          function movimiento13(){
+               $("#content_diseno_web").children("#frame1").animate({
+                    "margin":"1% 0 0 12%"
+               },1000);
+          }
+          function escribir_web3(){
+               $("#content_diseno_web").children("#titulo2").css("display","block");
+               $("#content_diseno_web").children("#titulo2").animate({
+                    "width":"184px"
+               },3000);
+          }
+          function movimientoimg13(){
+               $("#content_diseno_web").children("a").children("#tributar").animate({
+                    "margin":"-1% 0 0 12%"
+               },500);
+          }
+          function movimientoimg23(){
+               $("#content_diseno_web").children("a").children("#hache").animate({
+                    "margin":"1% 0 0 64.5%"
+               },500);
+          }
+          efecto3();
+     }
+</script>
+<script type="text/javascript">
+     $("#boton_abreweb").on("click",function(){
+        var posdiv = $(".content_textweb_smartphone").css("margin-left");
+        posdiv = posdiv.substring(0, posdiv.length - 2);
+        //alert(posdiv);
+        if (posdiv < 0) {
+          $(".content_textweb_smartphone").animate({"margin":"0% 0 0 5%"},1000);
+          $("#boton_abreweb").children("p").remove();
+          $("#boton_abreweb").append("<p id='pmenos'>i</p>");
+          $("#boton_abreweb").css({"background":"rgba(237,50,54,1)"});
+          $("#boton_abreweb").children("p").css({"color":"#fff"});
+        }else{
+          $(".content_textweb_smartphone").animate({"margin":"0% 0 0 -100%"},1000);
+          $("#boton_abreweb").children("p").remove();
+          $("#boton_abreweb").append("<p id='pmas'>i</p>");
+          $("#boton_abreweb").css({"background":"#000"});
+          $("#boton_abreweb").children("p").css({"color":"rgba(237,50,54,1)"});
+        }
+     });
+</script>

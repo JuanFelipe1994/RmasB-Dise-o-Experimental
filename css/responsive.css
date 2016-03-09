@@ -1,0 +1,353 @@
+/*==============================================================================GRANDES PANTALLAS DE MONITOR */
+@media only screen and (min-device-width: 1920px){
+	#section0{
+		height: 100% !important;
+	}
+	.slides-navigation {
+		display: block !important;
+	}
+	.fondo_infografia p{
+		line-height: 29px !important;
+    	width: 64% !important;
+    	margin-top: 21px !important;
+   		margin-left: 19% !important;
+	}
+	.fondo_infografia p strong{
+		font-size: 18pt !important;
+	}
+}
+/*====================================================================================PC PEQUEÑO Y PORTÁTILES*/
+@media only screen and (min-device-width: 1280px) and (max-device-width: 1919px) {
+	#top-menu{
+		width: 1280px;
+		position: absolute;
+		margin: 20px 0 0 -30px;
+	}
+	.navbar-brand img{
+	 	margin: -20px 0 0 1080px !important;
+	}
+	.slider_area{
+		width: 100% !important;
+	}
+	.prev{
+		display: none !important;
+	}
+	.next{
+		display: none !important;
+	}
+	.slides-pagination{
+		display: block !important;
+		margin: 0 0 0 -14.6% !important;
+	}
+}
+/*============================================================================================MINI PORTÁTILES*/
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1279px){
+	#top-menu{
+		width: 1025px;
+		position: absolute;
+		margin: 20px 0 0 -30px;
+	}
+	.navbar-brand img{
+	 	display: block !important;
+	}
+	.slider_area{
+		width: 1025px !important;
+	}
+	.slides-navigation {
+		display: none !important;
+	}
+}
+/*===============================================RESOLUCION TABLET (SAMSUNG GALAXY TAB 2 7" y IPAD) LANDSCAPE*/
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation:landscape){
+	/*==========================================INICIO*/	
+	#icono_home, #icono_quienes, #icono_arquitectura, #icono_diseno, #icono_web, #icono_ventas, #icono_contacto{
+		display: none !important;
+	}
+	.icono_home-2, .icono_quienes-2, .icono_arquitectura-2, .icono_diseno-2, .icono_web-2, .icono_ventas-2, .icono_contacto-2{
+		display: none !important;
+	}
+	#top-menu{
+		width: 800px !important;
+		position: absolute !important;
+		margin: 5px 0 0 110px !important;
+	}
+	.navbar-nav > li{
+		margin:0 3px 0 3px !important;
+	}
+
+	.navbar-brand img{
+	 	display: block !important;
+	 	position: absolute;
+	 	margin: -21px 0 0 40px !important;
+	 	width: 82px !important;
+	 	height: 72px !important;
+	}
+	#top-menu li a.ini{
+		display: none;
+	}
+	.slider_area{
+		width: 100% !important;
+	}
+	.slides-navigation a {
+		display: none !important;
+	}
+	.slides-pagination{
+		display: none !important;
+	}
+	/*=================================================*/
+}
+/*=========================================================================RESOLUCION IPAD  PORTRAIT 768X1024*/
+@media only screen and (device-width: 768px) and (min-device-width: 600px) and (orientation: portrait){
+	.slides-navigation a {
+		display: none !important;
+	}
+	#icono_home, #icono_quienes, #icono_arquitectura, #icono_diseno, #icono_web, #icono_ventas, #icono_contacto{
+		display: none;
+	}
+	.navbar-nav > li{
+		margin:-15px 2px 0 3px !important;
+	}
+
+	.navbar-brand img{
+	 	display: block !important;
+	 	position: absolute;
+	 	margin: -8px 0 0 -20px !important;
+	 	width: 50px !important;
+	 	height: 40px !important;
+	}
+	#top-menu li a.ini{
+		display: none;
+	}
+	#top-menu span{
+		margin: -1px 0 0 0 !important;
+	}
+	#aviso_cambio{
+		display: block !important;
+		width: 300px !important;
+		height: 300px !important;
+		background-size: 100% !important;
+		margin: -30% 0 0 11% !important;
+		z-index: 20;
+		opacity: 0.7 !important;
+		animation: opa 1s linear 1s infinite;
+		-webkit-animation: opa 1s linear 1s infinite;
+		-moz-animation: opa 1s linear 1s infinite;
+		-o-animation: opa 1s linear 1s infinite;
+		-ms-animation: opa 1s linear 1s infinite;
+	}
+	@keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-webkit-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-moz-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-o-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-ms-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+}
+/*=======================================================RESOLUCIÓN TABLET (SAMSUNG GALAXY TAB 2 7") PORTRAIT*/
+@media only screen and (max-device-width: 600px) and (min-device-width: 480px) and (orientation: portrait){
+	/*==========================================INICIO*/
+	.slides-navigation a {
+		display: none !important;
+	}
+	.slides-pagination{
+		display: none !important;
+	}
+	#top-menu span{
+		display: none;
+	}
+	#icono_home, #icono_quienes, #icono_arquitectura, #icono_diseno, #icono_web, #icono_ventas, #icono_contacto{
+		margin: -9% 0 0 67% !important;
+	}
+	.slider_area{
+		width: 100% !important; 
+	}
+	#slides{
+		width: 100% !important;
+	}
+	.slider_overlay{
+		width: 100% !important;
+	}
+	.navbar-brand img{
+	 	display: block !important;
+		margin: -4% 0 0 1% !important;
+		position: absolute;
+		z-index: 20;
+	}
+	#aviso_cambio{
+		display: block !important;
+		width: 200px !important;
+		height: 200px !important;
+		background-size: 100% !important;
+		margin: -30% 0 0 11% !important;
+		z-index: 20;
+		opacity: 0.7 !important;
+		animation: opa 1s linear 1s infinite;
+		-webkit-animation: opa 1s linear 1s infinite;
+		-moz-animation: opa 1s linear 1s infinite;
+		-o-animation: opa 1s linear 1s infinite;
+		-ms-animation: opa 1s linear 1s infinite;
+	}
+	@keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-webkit-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-moz-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-o-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-ms-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	/*=================================================*/
+}
+/* =============================================================================RESOLUCION IPHONE 6 LANDSCAPE*/
+@media only screen and (max-device-width: 667px) and (min-device-width: 375px) and (orientation : landscape){
+	/*==========================================INICIO*/
+	.slides-navigation a {
+		display: none !important;
+	}
+	.slides-pagination{
+		display: none !important;
+	}
+	#top-menu{
+		/*margin: 0 0 0 165px !important;*/
+		width: 100% !important;
+	}
+	#top-menu span{
+		display: none;
+	}
+	#icono_home, #icono_quienes, #icono_arquitectura, #icono_diseno, #icono_web, #icono_ventas, #icono_contacto{
+		margin: -29% 0 0 86% !important;
+	}
+	.navbar-default{
+		background-color: transparent !important;
+	}
+	.nav > li {
+    position: relative !important;
+    display: block !important;
+    margin: 0 0 -13px -38px !important;
+	}
+	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 350px !important;
+	}
+	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-right: -15px;
+    margin-left: 437px !important;
+	}
+	/*=================================================*/
+}
+/* ==============================================================================RESOLUCION IPHONE 6 PORTRAIT*/
+@media only screen and (max-device-width: 375px) and (min-device-width: 321px) and (orientation : portrait){
+	/*==========================================INICIO*/
+	.slides-navigation a {
+		display: none !important;
+	}
+	.slides-pagination{
+		display: none !important;
+	}
+	#top-menu span{
+		display: none;
+	}
+	#icono_home, #icono_quienes, #icono_arquitectura, #icono_diseno, #icono_web, #icono_ventas, #icono_contacto{
+		margin: -13% 0 0 67% !important;
+	}
+	.slider_area{
+		width: 100% !important;
+	}
+	#slides{
+		width: 100% !important;
+	}
+	.slider_overlay{
+		width: 100% !important;
+	}
+	#aviso_cambio{
+		display: block !important;
+		width: 200px !important;
+		height: 200px !important;
+		background-size: 100% !important;
+		margin: -20% 0 0 5% !important;
+		z-index: 20 !important;
+		opacity: 0.7 !important;
+		animation: opa 1s linear 1s infinite;
+		-webkit-animation: opa 1s linear 1s infinite;
+		-moz-animation: opa 1s linear 1s infinite;
+		-o-animation: opa 1s linear 1s infinite;
+		-ms-animation: opa 1s linear 1s infinite;
+	}
+	@keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-webkit-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-moz-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-o-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	@-ms-keyframes opa{
+		0%{opacity: 0.5;}
+		50%{opacity: 1;}
+		100%{opacity: 0.5;}
+	}
+	.navbar-brand img{
+	 	display: block !important;
+		margin: -6% 0 0 1% !important;
+		position: absolute;
+		z-index: 20;
+	}
+	.nav > li {
+    position: relative !important;
+    display: block !important;
+    margin: 0 0 -9px 0 !important;
+	/*=================================================*/
+}
+/* =============================================================================RESOLUCION IPHONE 4s PORTRAIT*/
+@media only screen and (max-device-width: 320px) and (min-device-width: 0px) and (orientation : portrait){
+	/*==========================================INICIO*/
+	#aviso_cambio{
+		margin: -23% 0 0 3% !important;
+	}
+	/*=================================================*/
+}
